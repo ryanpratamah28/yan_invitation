@@ -1,0 +1,489 @@
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+:root {
+    --white-color: #fff;
+    --light-brown: #E0CBA0;
+    --regular-brown: #C6A559;
+    --dark-brown: #492C09;
+    --darker-brown: #3B270C;
+    --background-icon-green: #41C336;
+    --background-icon-red: #FF0202;
+}
+
+/* width scrollbar */
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+/* Body */
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Public Sans', sans-serif;
+}
+
+/* Landing pages */
+
+#landing-pages .container {
+    width: min(100% - 30px, 1320px);
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-inline: auto;
+}
+
+
+#landing-pages .container .box .logo img {
+    width: 780px;
+    height: auto;
+    display: block;
+    margin: auto;
+    margin-bottom: 50px;
+}
+
+.button-wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.button-wrapper .btn-login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 20px;
+    width: 374px;
+    height: 76px;
+    border: none;
+    text-decoration: none;
+    border-radius: 40px;
+    background-color: var(--regular-brown);
+}
+
+.button-wrapper .btn-login p {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 32px;
+    color: #FFFFFF;
+}
+
+.button-wrapper .btn-register {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 20px;
+    width: 374px;
+    height: 76px;
+    text-decoration: none;
+    background-color: var(--white-color);
+    border: 2px solid #C6A559;
+    border-radius: 40px;
+}
+
+.button-wrapper .btn-register p {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 32px;
+    color: var(--regular-brown);
+}
+
+/* Login & Register */
+
+#login-register .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0;
+    max-width: 507px;
+}
+
+#login-register .container .card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    border-radius: 30px;
+    background-color: #fff;
+    box-shadow: 0px 10px 10px rgba(123, 63, 0, 0.34);
+}
+
+#login-register .container .card .logo-img img {
+    width: 236px;
+    margin: 50px;
+}
+
+/* Navtabs */
+
+#login-register .container nav {
+    display: flex;
+    justify-content: center;
+}
+
+.nav-tabs a.nav-link.active {
+    display: flex;
+    justify-content: center;
+    width: 250px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    background-color: transparent;
+    color: var(--darker-brown);
+    border-top: transparent;
+    border-right: transparent;
+    border-left: transparent;
+    border-bottom: 2px solid #3B270C;
+}
+
+.nav-tabs a.nav-link:hover {
+    border-top: transparent;
+    border-right: transparent;
+    border-left: transparent;
+}
+
+.nav-tabs a.nav-link {
+    display: flex;
+    justify-content: center;
+    width: 230px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    color: var(--regular-brown);
+}
+
+.tab-content .tab-pane span {
+    font-weight: 600;
+    color: black;
+}
+
+/* Content Navtabs */
+
+.tab-content {
+    width: 100%;
+}
+
+.tab-content .tab-pane .btn-log {
+    display: flex;
+    flex-direction: column;
+    margin: 20px 30px;
+}
+
+.tab-content .tab-pane .input-form {
+    display: flex;
+    flex-direction: column;
+    margin: 20px 30px;
+}
+
+.button_1,
+.button_2 {
+    display: flex;
+    width: 100%;
+    height: 64px;
+    margin-bottom: 20px;
+    padding: 0;
+    color: black;
+    background: var(--white-color);
+    border: 2px solid #C6A559;
+    border-radius: 8px;
+    overflow: hidden;
+    font-size: 16px;
+    font-weight: 500;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.button_1:hover {
+    background-color: var(--regular-brown);
+}
+
+.button_2:hover {
+    background-color: var(--regular-brown);
+}
+
+.button__text_1,
+.button__text_2 {
+    display: inline-flex;
+    align-items: center;
+    padding: 0 24px;
+    height: 100%;
+}
+
+.button__icon_1 {
+    display: inline-flex;
+    align-items: center;
+    padding: 0 24px;
+    font-size: 1.5em;
+    background: #3B5998;
+}
+
+.button__icon_2 {
+    display: inline-flex;
+    align-items: center;
+    padding: 0 24px;
+    font-size: 1.5em;
+    background: #FF0202;
+}
+
+.tab-content .tab-pane .text-divider p {
+    display: flex;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.38);
+}
+
+.tab-content .tab-pane .input-form .input-group {
+    height: 64px;
+}
+
+.fa-user:before {
+    font-size: 25px;
+    color: #7b7b7b;
+}
+
+.fa-envelope:before {
+    font-size: 25px;
+    color: #7b7b7b;
+}
+
+.fa-phone:before {
+    font-size: 25px;
+    color: #7b7b7b;
+}
+
+.fa-lock:before {
+    font-size: 25px;
+    color: #7b7b7b;
+}
+
+.tab-content .tab-pane #basic-addon1.input-group-text {
+    background-color: #e7e7e7;
+    width: 73.5px;
+    display: flex;
+    justify-content: center;
+}
+
+.tab-content .tab-pane .forgot-password a {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: black;
+}
+
+.tab-content .tab-pane .card-footer {
+    margin-top: 30px;
+    border: none;
+    text-align: center;
+    background-color: var(--regular-brown);
+}
+
+.tab-content .tab-pane .card-footer a {
+    overflow: hidden;
+    color: var(--white-color);
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+}
+
+/* Responsive */
+
+@media screen and (max-width: 1400px) {
+    /*Landing Pages */
+
+    #landing-pages .container .box .logo img {
+        width: 700px;
+        height: auto;
+        margin-bottom: 50px;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    /*Landing Pages */
+
+    #landing-pages .container .box .logo img {
+        width: 650px;
+        height: auto;
+        margin-bottom: 50px;
+    }
+}
+
+@media screen and (max-width: 991px) {
+
+}
+
+
+@media screen and (max-width: 767px) {
+    /* Landing Pages */
+
+    #landing-pages .container .box .logo img {
+        width: 500px;
+        height: auto;
+        margin-bottom: 50px;
+    }
+
+    .button-wrapper {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .button-wrapper .btn-login {
+        margin: 10px 0;
+        width: 100%;
+        border: none;
+        border-radius: 40px;
+        background-color: var(--regular-brown);
+    }
+
+    .button-wrapper .btn-login p {
+        font-size: 28px;
+    }
+
+    .button-wrapper .btn-register {
+        margin: 10px 0;
+        width: 100%;
+    }
+
+    .button-wrapper .btn-register p {
+        font-size: 28px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    /*Landing Pages */
+
+    #landing-pages .container .box .logo img {
+        width: 445px;
+        height: auto;
+        margin-bottom: 50px;
+    }
+
+    /* Login & Register */
+
+    #login-register .container .card {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        overflow: hidden;
+        border-radius: 0px;
+        border: none;
+        box-shadow: none;
+    }
+
+    #login-register .container .card .logo-img img {
+        width: 260px;
+        margin: 25px;
+    }
+
+    .nav-tabs a.nav-link.active {
+        font-size: 14px;
+    }
+
+    .nav-tabs a.nav-link {
+        font-size: 14px;
+    }
+
+    .tab-content .tab-pane span {
+        font-size: 14px;
+        font-weight: 600;
+        color: black;
+    }
+
+    .tab-content .tab-pane .btn-log {
+        margin: 20px 0px;
+    }
+
+    .tab-content .tab-pane .input-form {
+        margin: 20px 0px;
+    }
+
+    .button_1,
+    .button_2 {
+        width: 100%;
+        height: 50px;
+        margin-bottom: 15px;
+        padding: 0;
+    }
+
+    .tab-content .tab-pane .text-divider p {
+        font-size: 14px;
+        color: rgba(0, 0, 0, 0.38);
+    }
+
+    .tab-content .tab-pane .input-form .input-group {
+        height: 50px;
+    }
+
+    .fa-user:before {
+        font-size: 14px;
+    }
+
+    .fa-envelope:before {
+        font-size: 14px;
+    }
+
+    .fa-phone:before {
+        font-size: 14px;
+    }
+
+    .fa-lock:before {
+        font-size: 14px;
+    }
+
+    .tab-content .tab-pane .forgot-password a {
+        margin: 20px 0;
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    /*Landing Pages */
+
+    #landing-pages .container .box .logo img {
+        width: 280px;
+        height: auto;
+        margin-bottom: 50px;
+    }
+
+    /* Login Register */
+
+    #login-register .container {
+        width: min(100% - 50px, 500px);
+    }
+
+    #login-register .container .card .logo-img img {
+        width: 250px;
+        margin: 25px;
+    }
+
+    .nav-tabs {
+        min-width: max-content;
+    }
+
+    .nav-tabs a.nav-link.active {
+        width: 200px;
+    }
+
+    .nav-tabs a.nav-link {
+        width: 170px;
+    }
+    
+}
+
+@media screen and (max-width: 300px) {
+    
+}

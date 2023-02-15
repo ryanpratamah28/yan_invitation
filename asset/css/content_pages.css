@@ -1,0 +1,706 @@
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+:root {
+    --white-color: #fff;
+    --light-brown: #E0CBA0;
+    --regular-brown: #C6A559;
+    --dark-brown: #492C09;
+    --darker-brown: #3B270C;
+    --background-icon-green: #41C336;
+    --background-icon-red: #FF0202;
+}
+
+/* width scrollbar */
+
+::-webkit-scrollbar {
+    width: 14px;
+}
+
+/* Handle scrollbar */
+
+::-webkit-scrollbar-thumb {
+    background: var(--regular-brown);
+    border-radius: 10px;
+}
+
+/* Track scrollbar */
+
+::-webkit-scrollbar-track {
+    background: var(--darker-brown);
+}
+
+/* Body */
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Public Sans', sans-serif;
+}
+
+/* Navbar */
+
+.bg-brown {
+    background-color: var(--darker-brown);
+}
+
+a.btn-outline-light {
+    display: block;
+    margin: auto;
+    margin-right: 30px;
+    width: 174px;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 50px;
+    color: var(--regular-brown);
+    border-color: var(--regular-brown);
+    padding: 16px 32px;
+}
+
+.navbar-nav .dropdown {
+    display: flex;
+    padding: 15px 20px;
+    background-color: var(--darker-brown);
+    border: 1px solid #C6A559;
+    border-radius: 50px;
+}
+
+.navbar-nav .dropdown a.d-block.link-brown {
+    color: var(--regular-brown);
+}
+
+ul.dropdown-wrapper.dropdown-menu.text-small.show {
+    width: 210px;
+    margin-top: 10px;
+    background-color: var(--dark-brown);
+}
+
+li a.dropdown-item {
+    color: var(--regular-brown);
+}
+
+li a.dropdown-item:hover {
+    color: var(--white-color);
+    background-color: var(--dark-brown);
+}
+
+/* Navbar Offcanvas */
+
+.navbar .container-fluid .offcanvas {
+    background-color: var(--light-brown);
+}
+
+.navbar .container-fluid .offcanvas-header .btn-close {
+    margin-bottom: 70px;
+}
+
+/* Hubungi Kami */
+.hub-kami {
+    display: flex;
+    margin-right: 20px;
+    justify-content: end;
+}
+
+.hub-kami a {
+    padding: 20px 30px;
+    margin: 30px 0;
+    background-color: var(--background-icon-green);
+    border-radius: 100px;
+    font-weight: 700;
+    font-size: 25px;
+    color: var(--white-color);
+    text-decoration: none;
+}
+
+.hub-kami a:hover {
+    color: var(--white-color);
+}
+
+.hub-kami .icon {
+    font-size: 25px;
+}
+
+/*Footer*/
+
+footer p {
+    padding: 20px;
+    margin: 0;
+    color: var(--light-brown);
+}
+
+/* Cerita Cinta */
+
+
+#cerita-cinta {
+    background-color: var(--darker-brown);
+    color: var(--regular-brown);
+}
+
+#cerita-cinta .container {
+    width: min(100% - 30px, 1320px);
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-inline: auto;
+}
+
+#cerita-cinta .container .header {
+    display: flex;
+    padding: 20px 0px;
+}
+
+#cerita-cinta .container .header h1 {
+    display: flex;
+    align-items: end;
+    font-size: 20px;
+    padding: 0 10px;
+    margin: 0;
+}
+
+#cerita-cinta .container .form-outer {
+    background: var(--light-brown);
+    box-shadow: -4px 0px 20px rgba(198, 165, 89, 0.7);
+    border-radius: 30px;
+    overflow: hidden;
+}
+
+.form-outer .needs-validation .row label.form-label {
+    font-size: 18px;
+    font-weight: 700;
+    color: var(--dark-brown);
+}
+
+.form-outer .needs-validation .form-wrapper {
+    padding-top: 50px;
+    padding-bottom: 5px;
+    padding-right: 50px;
+    padding-left: 50px;
+}
+
+input.form-control {
+    background-color: var(--light-brown);
+    border: 1px solid #492C09;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.form-inside {
+    padding: 20px 50px;
+    background: rgba(217, 217, 217, 0.09);
+    box-shadow: -4px 4px 4px #C6A559;
+    border-radius: 30px;
+}
+
+input#sub-judul.form-control {
+    background-color: rgba(217, 217, 217, 0.09);
+    border: 1px solid #492C09;
+    border-radius: 10px;
+}
+
+textarea#konten.form-control {
+    height: 200px;
+    background-color: rgba(217, 217, 217, 0.09);
+    border: 1px solid #492C09;
+    border-radius: 10px;
+}
+
+.form-outer .button-edit {
+    display: flex;
+    justify-content: end;
+}
+
+.form-outer .button-edit a.btn-outline-dark-brown {
+    padding: 10px 30px;
+    margin: 30px 0;
+    background-color: var(--dark-brown);
+    border-radius: 10px;
+    font-weight: 700;
+    font-size: 20px;
+    color: var(--regular-brown);
+    text-decoration: none;
+}
+
+.form-outer .button-edit a.btn-outline-dark-brown:hover {
+    color: #e7e7e7;
+}
+
+.form-outer .button-save a {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--regular-brown);
+    padding: 20px 0;
+    font-size: 20px;
+    font-weight: 700;
+    color: var(--white-color);
+    text-decoration: none;
+}
+
+.drag-area {
+    border: 2px dashed #3B270C;
+    height: 330px;
+    width: 100%;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.drag-area.active {
+    border: 2px solid #fff;
+}
+
+.drag-area .icon {
+    font-size: 60px;
+    color: #C6A559;
+}
+
+.drag-area header {
+    font-size: 18px;
+    font-weight: 500;
+    color: var(--darker-brown);
+}
+
+.drag-area span {
+    font-size: 20px;
+    font-weight: 500;
+    color: var(--darker-brown);
+    margin: 10px 0 15px 0;
+}
+
+.drag-area button {
+    padding: 10px 25px;
+    font-size: 20px;
+    font-weight: 500;
+    border: none;
+    outline: none;
+    background: var(--darker-brown);
+    color: var(--regular-brown);
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.drag-area img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+/* Ucapan Pernikahan */
+
+textarea#deskripsi.form-control {
+    height: 150px;
+    background-color: var(--light-brown);
+    border: 1px solid #492C09;
+    border-radius: 10px;
+}
+
+.form-outer .needs-validation .form-wrapper .checkbox p {
+    padding: 10px 0;
+    margin: 0;
+    font-size: 18px;
+    font-weight: 700;
+    color: var(--dark-brown);
+}
+
+
+/* Responsive */
+
+
+@media screen and (max-width: 1400px) {
+    
+}
+
+@media screen and (max-width: 1200px) {
+
+}
+
+@media screen and (max-width: 991px) {
+
+}
+
+
+@media screen and (max-width: 767px) {
+
+    /* Navbar */
+
+    a.btn-outline-light {
+        display: flex;
+        justify-content: center;
+        margin: 0;
+        margin-bottom: 25px;
+        color: var(--dark-brown);
+        font-size: 25px;
+        font-weight: 600;
+        border-radius: 0px;
+        border: none;
+        padding: 10px 16px;
+    }
+
+    .navbar-nav .dropdown {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 15px 20px;
+        background-color: var(--light-brown);
+        border: none;
+        border-radius: 0px;
+    }
+
+    ul.dropdown-wrapper.dropdown-menu.text-small.show {
+        width: 325px;
+        margin-top: 10px;
+        background-color: var(--dark-brown);
+    }
+
+    li a.dropdown-item {
+        color: var(--regular-brown);
+    }
+
+    /* Navbar Offcanvas */
+
+    .navbar-nav .dropdown a.d-block.link-brown {
+        font-weight: 600;
+        font-size: 25px;
+        color: var(--dark-brown);
+    }
+
+    .navbar-nav .dropdown a.d-block.link-brown img {
+        width: 40px;
+    }
+
+    /* Cerita Cinta */
+
+    #cerita-cinta .container .header {
+        padding: 15px 0px;
+    }
+
+    #cerita-cinta .container .header h1 {
+        font-size: 18px;
+    }
+
+    .form-outer .needs-validation .form-wrapper {
+        padding-top: 50px;
+        padding-bottom: 5px;
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+
+    .form-inside {
+        padding: 0 0;
+        background: var(--light-brown);
+        box-shadow: none;
+        border-radius: 0px;
+    }
+
+    .form-outer .button-edit a.btn-outline-dark-brown {
+        padding: 5px 15px;
+        margin: 20px 0;
+        background-color: var(--dark-brown);
+        border-radius: 10px;
+        font-weight: 700;
+        font-size: 18px;
+        color: var(--regular-brown);
+        text-decoration: none;
+    }
+
+    .form-outer .button-save a {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: var(--regular-brown);
+        padding: 15px 0;
+        font-size: 18px;
+        font-weight: 600;
+        color: var(--white-color);
+        text-decoration: none;
+    }
+
+    .drag-area {
+        height: 400px;
+    }
+
+    .drag-area.active {
+        border: 2px solid #fff;
+    }
+
+    .drag-area .icon {
+        font-size: 120px;
+        color: #C6A559;
+    }
+
+    .drag-area header {
+        font-size: 18px;
+        font-weight: 500;
+        color: var(--darker-brown);
+    }
+
+    .drag-area span {
+        font-size: 20px;
+        font-weight: 500;
+        color: var(--darker-brown);
+        margin: 10px 0 15px 0;
+    }
+
+    .drag-area button {
+        padding: 10px 20px;
+        font-size: 20px;
+        font-weight: 500;
+        border: none;
+        outline: none;
+        background: var(--darker-brown);
+        color: var(--regular-brown);
+        border-radius: 5px;
+        cursor: pointer;
+    }
+
+    .drag-area img {
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+        border-radius: 5px;
+    }
+
+    /* Hubungi Kami */
+
+    .hub-kami a {
+        padding: 10px 20px;
+        margin: 20px 0;
+        border-radius: 80px;
+        font-weight: 500;
+        font-size: 18px;
+        color: var(--white-color);
+    }
+
+    .hub-kami a:hover {
+        color: var(--white-color);
+    }
+}
+
+
+@media screen and (max-width: 576px) {
+    
+}
+
+@media screen and (max-width: 500px) {
+
+    /* Navbar */
+
+    .navbar .container-fluid a.navbar-brand img {
+        width: 230px;
+    }
+
+    /* Hubungi Kami */
+
+    .hub-kami a {
+        padding: 10px 20px;
+        margin: 30px 0;
+        border-radius: 50px;
+        font-weight: 600;
+        font-size: 20px;
+        color: var(--white-color);
+    }
+
+    .hub-kami a:hover {
+        color: var(--white-color);
+    }
+
+    /* Footer */
+
+    footer p {
+        padding: 20px;
+        font-size: 14px;
+    }
+
+    /* Cerita Cinta */
+
+    #cerita-cinta .container .header {
+        padding: 15px 0px;
+    }
+
+    #cerita-cinta .container .header h1 {
+        font-size: 20px;
+    }
+
+    .form-outer .button-edit a.btn-outline-dark-brown {
+        padding: 5px 15px;
+        margin: 20px 0;
+        background-color: var(--dark-brown);
+        border-radius: 10px;
+        font-weight: 700;
+        font-size: 18px;
+        color: var(--regular-brown);
+        text-decoration: none;
+    }
+
+    .form-outer .button-save a {
+        padding: 20px 0;
+        font-size: 20px;
+    }
+
+    .drag-area .icon {
+        font-size: 80px;
+        color: #C6A559;
+    }
+
+    .drag-area header {
+        font-size: 20px;
+        font-weight: 500;
+        color: var(--darker-brown);
+    }
+
+    .drag-area span {
+        font-size: 20px;
+        font-weight: 500;
+        color: var(--darker-brown);
+        margin: 10px 0 15px 0;
+    }
+
+    .drag-area button {
+        padding: 10px 20px;
+        font-size: 20px;
+    }
+
+    .drag-area img {
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+        border-radius: 5px;
+    }
+}
+
+@media screen and (max-width: 300px) {
+    /* Navbar */
+
+    .navbar .container-fluid a.navbar-brand img {
+        width: 180px;
+    }
+    
+    ul.dropdown-wrapper.dropdown-menu.text-small.show {
+        width: 200px;
+        margin-top: 10px;
+        background-color: var(--dark-brown);
+    }
+
+    li a.dropdown-item {
+        color: var(--regular-brown);
+    }
+
+    /* Navbar Offcanvas */
+
+    .navbar-nav .dropdown a.d-block.link-brown {
+        font-weight: 600;
+        font-size: 18px;
+        color: var(--dark-brown);
+    }
+
+    .navbar-nav .dropdown a.d-block.link-brown img {
+        width: 30px;
+    }
+
+    /* Hubungi Kami */
+
+    .hub-kami {
+        display: flex;
+        margin-right: 0px;
+        justify-content: center;
+    }
+
+    .hub-kami a {
+        padding: 10px 20px;
+        margin: 30px 0;
+        border-radius: 10px;
+        font-weight: 600;
+        font-size: 18px;
+        color: var(--white-color);
+    }
+
+    .hub-kami .icon {
+        font-size: 20px;
+    }
+
+    /* Footer */
+
+    footer p {
+        padding: 20px;
+        font-size: 12px;
+    }
+
+    /* Cerita Cinta */
+
+    #cerita-cinta .container .header {
+        padding: 15px 0px;
+    }
+
+    #cerita-cinta .container .header h1 {
+        font-size: 20px;
+    }
+
+    #cerita-cinta .container .form-outer {
+        background: var(--light-brown);
+        box-shadow: none;
+        border-radius: 10px;
+        overflow: hidden;
+    }
+    
+    .form-outer .needs-validation .form-wrapper {
+        padding-top: 25px;
+        padding-bottom: 5px;
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+
+    .form-outer .needs-validation .row label.form-label {
+        font-size: 16px;
+    }
+    
+    .form-outer .button-edit {
+        display: flex;
+        justify-content: center;
+    }
+
+    .form-outer .button-edit a.btn-outline-dark-brown {
+        width: 100%;
+        padding: 10px 15px;
+        margin: 10px 0;
+        background-color: var(--dark-brown);
+        border-radius: 10px;
+        font-weight: 700;
+        font-size: 20px;
+        color: var(--regular-brown);
+        text-decoration: none;
+    }
+
+    .form-outer .button-save a {
+        padding: 20px 0;
+        font-size: 20px;
+    }
+
+    .drag-area .icon {
+        font-size: 60px;
+        color: #C6A559;
+    }
+
+    .drag-area header {
+        font-size: 16px;
+        font-weight: 500;
+        color: var(--darker-brown);
+    }
+
+    .drag-area span {
+        font-size: 18px;
+        font-weight: 500;
+        color: var(--darker-brown);
+        margin: 10px 0 15px 0;
+    }
+
+    .drag-area button {
+        padding: 5px 20px;
+        font-size: 16px;
+    }
+}
