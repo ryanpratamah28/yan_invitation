@@ -86,7 +86,7 @@
         <div class="container">
             <div class="header">
                 <a href="#"><img src="/asset/img/pages_img/house 1.png" width="64"></a>
-                <h1>/ Cerita Cinta</h1>
+                <h1>/ Informasi Mempelai</h1>
             </div>
 
             <div class="form-outer col-12">
@@ -95,43 +95,111 @@
                         <div class="row">
                             <div class="col-12 col-sm-12">
                                 <label for="judul" class="form-label">Judul</label>
-                                <input type="text" class="form-control" id="judul" placeholder="Our Story" value=""
+                                <input type="text" class="form-control" id="judul" placeholder="" value=""
+                                    required>
+                            </div>
+                            
+                            <div class="col-12 col-sm-12">
+                                <label for="sub-judul" class="form-label">Sub Judul</label>
+                                <input type="text" class="form-control" id="sub-judul" placeholder="" value=""
                                     required>
                             </div>
                         </div>
 
-                        <hr class="mt-1">
+                        <div class="checkbox">
+                            <div class="row">
+                                <div class="col-5">
+                                    <p> Tampilkan foto profil</p>
+                                </div>
 
-                        <div class="form-inside">
-                            <div class="row d-flex">
-                                <div class="col-md-6 mb-5">
-                                    <div class="drag-area">
-                                        <div class="icon"><i class="fa-solid fa-upload"></i></i></div>
-                                        <header>Drag and Drop Gambar</header>
-                                        <span>atau</span>
-                                        <button>Browse File</button>
-                                        <input type="file" hidden>
+                                <div class="col-7">
+
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="col-5">
+                                    <p> Nama mempelai wanita terlebih dahulu</p>
+                                </div>
+
+                                <div class="col-7">
+
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <hr class="divider">
+
+                        <div class="info-mempelai">
+                            <div class="row">
+                                <div class="col-xxl-6 ">
+                                    <div class="mempelai-pria">
+                                        <div class="row">
+                                            <div class="col-12">
+                                                <div class="drag-area mb-3">
+                                                    <div class="icon"><i class="fa-solid fa-person"></i></div>
+                                                    <header class="mb-3">Tambah Foto Mempelai Pria</header>
+                                                    <button>Browse File</button>
+                                                    <input type="file" hidden>
+                                                </div>
+
+                                                <div class="nama-mempelai-pria">
+                                                    <label for="nama-mempelai-pria" class="form-label">Calon Mempelai Pria</label>
+                                                    <input type="text" class="form-control" id="nama-mempelai-pria" placeholder="Isi Nama" required>
+                                                </div>
+            
+                                                <div class="nama-ortu">
+                                                    <label for="nama-ortu" class="form-label">Nama Orang Tua</label>
+                                                    <input type="text" class="form-control" id="nama-ortu" placeholder="Putra Dari Bapak (Nama Ayah) dan Ibu (Nama Ibu)" required>
+                                                </div>
+        
+                                                <div class="social-media">
+                                                    <input type="text" class="form-control" id="social-media" placeholder="@LoremIpsum" required>
+                                                </div>
+        
+                                                <div class="pesan-bio">
+                                                    <input type="text" class="form-control" id="pesan-bio" placeholder="Pesan/Bio" required>
+                                                </div>
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
 
-                                <div class="col-md-6">
-                                    <div class="sub-judul">
-                                        <label for="sub-judul" class="form-label">Sub Judul</label>
-                                        <input type="text" class="form-control" id="sub-judul" placeholder="" required>
-                                    </div>
-
-                                    <div class="konten">
-                                        <label for="konten" class="form-label">Konten</label>
-                                        <textarea type="text" class="form-control" id="konten" placeholder=""
-                                            required></textarea>
+                                <div class="col-xxl-6">
+                                    <div class="mempelai-wanita">
+                                        <div class="row">
+                                            <div class="col-12">
+                                                <div class="drag-area mb-3">
+                                                    <div class="icon"><i class="fa-solid fa-person-dress"></i></div>
+                                                    <header class="mb-3">Tambah Foto Mempelai Wanita</header>
+                                                    <button>Browse File</button>
+                                                    <input type="file" hidden>
+                                                </div>
+                                                
+                                                <div class="nama-mempelai-wanita">
+                                                    <label for="nama-mempelai-wanita" class="form-label">Calon Mempelai Wanita</label>
+                                                    <input type="text" class="form-control" id="nama-mempelai-wanita" placeholder="Isi Nama" required>
+                                                </div>
+            
+                                                <div class="nama-ortu">
+                                                    <label for="nama-ortu" class="form-label">Nama Orang Tua</label>
+                                                    <input type="text" class="form-control" id="nama-ortu" placeholder="Putra Dari Bapak (Nama Ayah) dan Ibu (Nama Ibu)" required>
+                                                </div>
+        
+                                                <div class="social-media">
+                                                    <input type="text" class="form-control" id="social-media" placeholder="@LoremIpsum" required>
+                                                </div>
+        
+                                                <div class="pesan-bio">
+                                                    <input type="text" class="form-control" id="pesan-bio" placeholder="Pesan/Bio" required>
+                                                </div>
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
 
-                        <div class="button-edit text-center">
-                            <a href="" class="btn-outline-dark-brown"><i class="bi bi-pencil-fill"></i> Edit</a>
-                        </div>
                     </div>
 
                     <div class="button-save">

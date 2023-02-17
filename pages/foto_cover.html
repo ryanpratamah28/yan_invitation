@@ -86,52 +86,68 @@
         <div class="container">
             <div class="header">
                 <a href="#"><img src="/asset/img/pages_img/house 1.png" width="64"></a>
-                <h1>/ Cerita Cinta</h1>
+                <h1>/ Settingan Cover</h1>
             </div>
 
             <div class="form-outer col-12">
                 <form action="" method="" class="needs-validation">
                     <div class="form-wrapper">
                         <div class="row">
-                            <div class="col-12 col-sm-12">
+                            <div class="col-xxl-4 col-xl-4 col-md-5 col-sm-6 col-sm-12 mb-3">
+                                <label for="logo" class="form-label">Logo</label>
+                                
+                                <div class="drag-area">
+                                    <div class="icon"><i class="fa-solid fa-plus"></i></div>
+                                    <header>Drag and Drop Logo</header>
+                                    <span>atau</span>
+                                    <button>Browse File</button>
+                                    <input type="file" hidden>
+                                </div>
+                            </div>
+
+                            <div class="col-sm-12">
                                 <label for="judul" class="form-label">Judul</label>
-                                <input type="text" class="form-control" id="judul" placeholder="Our Story" value=""
+                                <input type="text" class="form-control" id="judul" placeholder="Lorem Ipsum" value=""
                                     required>
                             </div>
                         </div>
 
-                        <hr class="mt-1">
+                        <div class="row">
+                            <div class="col-xxl-6 col-sm-12">
+                                <label for="teks_atas" class="form-label">Teks Atas</label>
+                                <input type="text" class="form-control" id="teks_atas" placeholder="" value=""
+                                    required>
+                            </div>
 
-                        <div class="form-inside">
-                            <div class="row d-flex">
-                                <div class="col-md-6 mb-5">
-                                    <div class="drag-area">
-                                        <div class="icon"><i class="fa-solid fa-upload"></i></i></div>
-                                        <header>Drag and Drop Gambar</header>
-                                        <span>atau</span>
-                                        <button>Browse File</button>
-                                        <input type="file" hidden>
-                                    </div>
+                            <div class="col-xxl-6 col-sm-12">
+                                <label for="teks_bawah" class="form-label">Teks Bawah</label>
+                                <input type="text" class="form-control" id="teks_bawah" placeholder="" value=""
+                                    required>
+                            </div>
+                        </div>
+
+                        <hr class="mt-1" style="color:#3B270C">
+                        
+                        <div class="row">
+                            <div class="col-xxl-6 mb-4">
+                                <div class="drag-area">
+                                    <div class="icon"><i class="fa-solid fa-computer"></i></div>
+                                    <header class="mb-3">Tambah Foto Cover Desktop</header>
+                                    <button>Browse File</button>
+                                    <input type="file" hidden>
                                 </div>
+                            </div>
 
-                                <div class="col-md-6">
-                                    <div class="sub-judul">
-                                        <label for="sub-judul" class="form-label">Sub Judul</label>
-                                        <input type="text" class="form-control" id="sub-judul" placeholder="" required>
-                                    </div>
-
-                                    <div class="konten">
-                                        <label for="konten" class="form-label">Konten</label>
-                                        <textarea type="text" class="form-control" id="konten" placeholder=""
-                                            required></textarea>
-                                    </div>
+                            <div class="col-xxl-6">
+                                <div class="drag-area">
+                                    <div class="icon"><i class="bi bi-phone"></i></div>
+                                    <header class="mb-3">Tambah Foto Cover Mobile</header>
+                                    <button>Browse File</button>
+                                    <input type="file" hidden>
                                 </div>
                             </div>
                         </div>
 
-                        <div class="button-edit text-center">
-                            <a href="" class="btn-outline-dark-brown"><i class="bi bi-pencil-fill"></i> Edit</a>
-                        </div>
                     </div>
 
                     <div class="button-save">

@@ -51,9 +51,11 @@
                         <a href="" class="btn btn-outline-light">PANDUAN</a>
 
                         <div class="dropdown">
-                            <a href="#" class="d-block link-brown text-decoration-none dropdown-toggle"
+                            <a href="#" class="d-flex justify-content-center align-items-center link-brown text-decoration-none dropdown-toggle"
                                 data-bs-toggle="dropdown" aria-expanded="false">
-                                <img src="/asset/img/dashboard_img/photo-1.png" width="30"> Anne Leonharto
+                                <img src="/asset/img/dashboard_img/photo-1.png" width="30">
+
+                                <p>Anne Leoharto</p>
                             </a>
 
                             <ul class="dropdown-wrapper dropdown-menu text-small">
@@ -127,11 +129,29 @@
                             </div>
                         </div>
                         
-                        
+                        <nav>
+                            <div class="nav nav-tabs" id="nav-tab" role="tablist" style="border-bottom: 1px solid #492C09;">
+                                <a class="nav-link active" id="nav-home-tab" data-bs-toggle="tab" data-bs-target="#nav-home" type="button" role="tab" aria-selected="true">
+                                    Published
+                                </a>
 
-                        <div class="button-edit text-center">
-                            <a href="" class="btn-outline-dark-brown"><i class="bi bi-pencil-fill"></i> Edit</a>
+                                <a href="" class="nav-link" id="nav-profile-tab" data-bs-toggle="tab" data-bs-target="#nav-profile" type="button" role="tab" aria-selected="false">
+                                    Held for review
+                                </a>
+                            </div>
+                        </nav>
+
+                        <div class="tab-content" id="nav-tabContent">
+                            <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab" tabindex="0">
+                                <i class="icon bi bi-eye"></i>
+                                <p>Kamu belum memiliki komentar</p>
+                            </div>
+                            <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab" tabindex="0">
+                                <i class="icon bi bi-eye"></i>
+                                <p>Tidak ada komentar yang harus di review</p>
+                            </div>
                         </div>
+
                     </div>
 
                     <div class="button-save">

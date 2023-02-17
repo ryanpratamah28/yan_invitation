@@ -86,52 +86,60 @@
         <div class="container">
             <div class="header">
                 <a href="#"><img src="/asset/img/pages_img/house 1.png" width="64"></a>
-                <h1>/ Cerita Cinta</h1>
+                <h1>/ Galeri Foto & Video</h1>
             </div>
 
             <div class="form-outer col-12">
                 <form action="" method="" class="needs-validation">
                     <div class="form-wrapper">
                         <div class="row">
-                            <div class="col-12 col-sm-12">
+                            <div class="col-xxl-6 mb-3">
+                                <label for="logo" class="form-label">Foto</label>
+                            </div>
+
+                            <div class="col-sm-12">
                                 <label for="judul" class="form-label">Judul</label>
-                                <input type="text" class="form-control" id="judul" placeholder="Our Story" value=""
+                                <input type="text" class="form-control" id="judul" placeholder="Lorem Ipsum" value=""
                                     required>
                             </div>
-                        </div>
 
-                        <hr class="mt-1">
+                            <div class="col-12 col-sm-12">
+                                <label for="deskripsi" class="form-label">Deskripsi</label>
+                                <textarea type="text" class="form-control" id="deskripsi" placeholder="" value="" required></textarea>
+                            </div>
 
-                        <div class="form-inside">
-                            <div class="row d-flex">
-                                <div class="col-md-6 mb-5">
-                                    <div class="drag-area">
-                                        <div class="icon"><i class="fa-solid fa-upload"></i></i></div>
-                                        <header>Drag and Drop Gambar</header>
-                                        <span>atau</span>
-                                        <button>Browse File</button>
-                                        <input type="file" hidden>
-                                    </div>
-                                </div>
-
-                                <div class="col-md-6">
-                                    <div class="sub-judul">
-                                        <label for="sub-judul" class="form-label">Sub Judul</label>
-                                        <input type="text" class="form-control" id="sub-judul" placeholder="" required>
-                                    </div>
-
-                                    <div class="konten">
-                                        <label for="konten" class="form-label">Konten</label>
-                                        <textarea type="text" class="form-control" id="konten" placeholder=""
-                                            required></textarea>
-                                    </div>
+                            <div class="col-12 col-sm-12">
+                                <div class="upload-gambar">
+                                    <button type="submit"><i class="icon fa-solid fa-image"></i> Upload Gambar</button>
                                 </div>
                             </div>
                         </div>
 
-                        <div class="button-edit text-center">
-                            <a href="" class="btn-outline-dark-brown"><i class="bi bi-pencil-fill"></i> Edit</a>
+                        <hr class="mt-1" style="color:#3B270C">
+
+                        <div class="row">
+                            <div class="col-xxl-6 mb-3">
+                                <label for="logo" class="form-label">Video</label>
+                            </div>
+
+                            <div class="col-sm-12">
+                                <label for="judul" class="form-label">Judul</label>
+                                <input type="text" class="form-control" id="judul" placeholder="Lorem Ipsum" value=""
+                                    required>
+                            </div>
+
+                            <div class="col-12 col-sm-12">
+                                <label for="deskripsi" class="form-label">Deskripsi</label>
+                                <textarea type="text" class="form-control" id="deskripsi" placeholder="" value="" required></textarea>
+                            </div>
+
+                            <div class="col-12 col-sm-12">
+                                <div class="upload-gambar">
+                                    <button type="submit"><i class="fa-solid fa-video"></i> Upload Video</button>
+                                </div>
+                            </div>
                         </div>
+
                     </div>
 
                     <div class="button-save">

@@ -1,3 +1,5 @@
+// Ucapan Pernikahan
+
 const dropArea = document.querySelector(".drag-area"),
     dragText = dropArea.querySelector("header"),
     button = dropArea.querySelector("button"),
@@ -17,12 +19,12 @@ input.addEventListener("change", function () {
 dropArea.addEventListener("dragover", (event) => {
     event.preventDefault();
     dropArea.classList.add("active");
-    dragText.textContent = "Release to Upload File";
+    dragText.textContent = "Lepas untuk upload file gambar";
 });
 
 dropArea.addEventListener("dragleave", () => {
     dropArea.classList.remove("active");
-    dragText.textContent = "Drag & Drop to Upload File";
+    dragText.textContent = "Drag & Drop gambar";
 });
 
 dropArea.addEventListener("drop", (event) => {
@@ -43,8 +45,9 @@ function showFile() {
         }
         fileReader.readAsDataURL(file);
     } else {
-        alert("This is not an Image File!");
+        alert("Ini bukan file gambar!!");
         dropArea.classList.remove("active");
-        dragText.textContent = "Drag & Drop to Upload File";
+        dragText.textContent = "Drag & Drop gambar";
     }
 }
+
