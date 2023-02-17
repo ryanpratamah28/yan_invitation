@@ -68,7 +68,7 @@ a.btn-outline-light {
     color: var(--regular-brown);
 }
 
-.navbar-nav .dropdown a p{
+.navbar-nav .dropdown a p {
     margin: 0 10px;
 }
 
@@ -353,7 +353,7 @@ textarea#deskripsi.form-control {
     color: var(--dark-brown);
 }
 
-.tab-content .tab-pane{
+.tab-content .tab-pane {
     margin-top: 20px;
 }
 
@@ -407,14 +407,14 @@ textarea#deskripsi.form-control {
     margin: 0 20px;
 }
 
-.donations .donation .donation-content p{
+.donations .donation .donation-content p {
     margin: 0;
     font-size: 18px;
     font-weight: 500;
     color: var(--dark-brown);
 }
 
-.donations .donation .donation-content h1{
+.donations .donation .donation-content h1 {
     margin: 0;
     font-size: 24px;
     font-weight: 700;
@@ -435,14 +435,14 @@ textarea#deskripsi.form-control {
     border-radius: 10px;
 }
 
-.tab-content .tab-pane .form-transaksi .form-transaksi-content .form-title h1{
+.tab-content .tab-pane .form-transaksi .form-transaksi-content .form-title h1 {
     text-align: center;
     color: var(--dark-brown);
     font-size: 24px;
     font-weight: 700;
 }
 
-.tab-content .tab-pane .form-transaksi .form-transaksi-content .form-title hr{
+.tab-content .tab-pane .form-transaksi .form-transaksi-content .form-title hr {
     border: 2px solid #492C09;
 }
 
@@ -458,7 +458,7 @@ textarea#deskripsi.form-control {
     margin-bottom: 20px;
 }
 
-.form-outer .needs-validation .form-wrapper .row .upload-gambar button{
+.form-outer .needs-validation .form-wrapper .row .upload-gambar button {
     width: 185px;
     height: 40px;
     background: #C6A559;
@@ -478,13 +478,13 @@ textarea#deskripsi.form-control {
 
 /* Informasi Mempelai */
 
-hr.divider{
+hr.divider {
     border: 2px solid #492C09;
 }
 
 /* Upgrade Premium */
 
-.form-outer .needs-validation .form-wrapper .btn-premium{
+.form-outer .needs-validation .form-wrapper .btn-premium {
     width: 180px;
     padding: 15px 20px;
     font-size: 18px;
@@ -495,27 +495,27 @@ hr.divider{
     border-radius: 10px;
 }
 
-.form-outer .needs-validation .form-wrapper .btn-premium a{
+.form-outer .needs-validation .form-wrapper .btn-premium a {
     color: var(--dark-brown);
     text-decoration: none;
 }
 
-.form-outer .needs-validation .form-wrapper .btn-premium .icon{
+.form-outer .needs-validation .form-wrapper .btn-premium .icon {
     font-size: 22px;
     font-weight: bolder;
     color: var(--dark-brown);
 }
 
-.form-outer .needs-validation .form-wrapper .fitur-premium{
+.form-outer .needs-validation .form-wrapper .fitur-premium {
     padding: 50px 0 0 0;
 }
 
-.fitur-premium .table-responsive hr{
+.fitur-premium .table-responsive hr {
     margin: 0;
     border: 1px solid #492C09;
 }
 
-.fitur-premium .table-responsive .table-title th{
+.fitur-premium .table-responsive .table-title th {
     width: 20%;
     padding: 15px 0;
     font-size: 18px;
@@ -523,11 +523,11 @@ hr.divider{
     color: var(--regular-brown);
 }
 
-.fitur-premium .table-responsive .table-title th.table-activated{
+.fitur-premium .table-responsive .table-title th.table-activated {
     color: var(--dark-brown);
 }
 
-.fitur-premium .table-responsive .table-footer th.btn-beli{
+.fitur-premium .table-responsive .table-footer th.btn-beli {
     width: 20%;
     padding: 15px 0;
     font-size: 18px;
@@ -536,7 +536,7 @@ hr.divider{
     border-bottom: none;
 }
 
-.fitur-premium .table-responsive .table-footer th.btn-beli a{
+.fitur-premium .table-responsive .table-footer th.btn-beli a {
     padding: 12px 20px;
     border-radius: 10px;
     font-size: 18px;
@@ -546,21 +546,21 @@ hr.divider{
 
 }
 
-.fitur-premium .table-responsive thead tr{
-    border-bottom: 1px  solid #492C09;
+.fitur-premium .table-responsive thead tr {
+    border-bottom: 1px solid #492C09;
 }
 
-.fitur-premium .table-responsive tbody tr{
-    border-bottom: 1px  solid #492C09;
+.fitur-premium .table-responsive tbody tr {
+    border-bottom: 1px solid #492C09;
 }
 
-.fitur-premium .table-responsive tbody tr th.text-start{
+.fitur-premium .table-responsive tbody tr th.text-start {
     color: var(--dark-brown);
     font-size: 18px;
     font-weight: 400;
 }
 
-.fitur-premium .table-responsive tbody tr td{
+.fitur-premium .table-responsive tbody tr td {
     color: var(--regular-brown);
     font-weight: 600;
 }
@@ -575,85 +575,107 @@ hr.device-divider {
     margin: 20px 0;
 }
 
-.form-outer .needs-validation .form-wrapper .current-device{
+.form-outer .needs-validation .form-wrapper .current-device {
     display: flex;
     color: var(--dark-brown);
 }
 
-.form-outer .needs-validation .form-wrapper .current-device .device-img .icon{
+.form-outer .needs-validation .form-wrapper .current-device .device-img .icon {
     padding: 0px 30px;
     font-size: 150px;
 }
 
-.form-outer .needs-validation .form-wrapper .current-device .device-title h1{
+.form-outer .needs-validation .form-wrapper .current-device .device-title h1 {
     font-size: 40px;
     font-weight: 700;
 }
 
-.form-outer .needs-validation .form-wrapper .current-device .device-title p{
+.form-outer .needs-validation .form-wrapper .current-device .device-title p {
     font-size: 28px;
     font-weight: 400;
 }
 
-.form-outer .needs-validation .form-wrapper .devices{
+.form-outer .needs-validation .form-wrapper .devices {
     color: var(--dark-brown);
 }
 
-.form-outer .needs-validation .form-wrapper .devices h1{
+.form-outer .needs-validation .form-wrapper .devices h1 {
     font-size: 28px;
     font-weight: 700;
 }
 
-.form-outer .needs-validation .form-wrapper .devices h2{
+.form-outer .needs-validation .form-wrapper .devices h2 {
     font-size: 28px;
     font-weight: 400;
 }
 
-.form-outer .needs-validation .form-wrapper .devices .content h1{
+.form-outer .needs-validation .form-wrapper .devices .content h1 {
     font-size: 24px;
 }
 
-.form-outer .needs-validation .form-wrapper .devices .content .icon{
+.form-outer .needs-validation .form-wrapper .devices .content .icon {
     padding: 0px 10px;
     font-size: 24px;
     font-weight: 700;
 }
 
-.form-outer .needs-validation .form-wrapper .devices .content .iphone{
+.form-outer .needs-validation .form-wrapper .devices .content .iphone {
     display: flex;
     margin: 20px 0;
 }
 
-.form-outer .needs-validation .form-wrapper .devices .content .macbook{
+.form-outer .needs-validation .form-wrapper .devices .content .macbook {
     display: flex;
     margin: 20px 0;
 }
 
-.form-outer .needs-validation .form-wrapper .devices .content .other-devices{
+.form-outer .needs-validation .form-wrapper .devices .content .other-devices {
     display: flex;
     margin: 20px 0;
 }
 
-.form-outer .needs-validation .form-wrapper .devices .content .airplay{
+.form-outer .needs-validation .form-wrapper .devices .content .airplay {
     display: flex;
     margin: 20px 0;
 }
 
+/* RSVP Page */
+.form-outer .needs-validation .form-wrapper .setting-rsvp{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 200px;
+}
+
+.form-outer .needs-validation .form-wrapper .setting-rsvp a{
+    text-decoration: none;
+}
+
+.form-outer .needs-validation .form-wrapper .setting-rsvp a .row{
+    opacity: 0.4;
+    font-size: 18px;
+    font-weight: 700;
+    color: var(--dark-brown);
+}
+
+.form-outer .needs-validation .form-wrapper .setting-rsvp a img {
+    z-index: 3;
+    opacity: 1;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
 
 /* Responsive */
 
 
-@media screen and (max-width: 1400px) {
-    
-}
+@media screen and (max-width: 1400px) {}
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1200px) {}
 
-}
-
-@media screen and (max-width: 991px) {
-
-}
+@media screen and (max-width: 991px) {}
 
 
 @media screen and (max-width: 767px) {
@@ -822,36 +844,36 @@ hr.device-divider {
 
     /* Connect Devices */
 
-    .form-outer .needs-validation .form-wrapper .current-device .device-img .icon{
+    .form-outer .needs-validation .form-wrapper .current-device .device-img .icon {
         padding: 0px 20px;
         font-size: 100px;
     }
 
-    .form-outer .needs-validation .form-wrapper .current-device .device-title h1{
+    .form-outer .needs-validation .form-wrapper .current-device .device-title h1 {
         font-size: 30px;
         font-weight: 700;
     }
 
-    .form-outer .needs-validation .form-wrapper .current-device .device-title p{
+    .form-outer .needs-validation .form-wrapper .current-device .device-title p {
         font-size: 24px;
         font-weight: 400;
     }
 
-    .form-outer .needs-validation .form-wrapper .devices h1{
+    .form-outer .needs-validation .form-wrapper .devices h1 {
         font-size: 24px;
         font-weight: 700;
     }
 
-    .form-outer .needs-validation .form-wrapper .devices h2{
+    .form-outer .needs-validation .form-wrapper .devices h2 {
         font-size: 20px;
         font-weight: 400;
     }
 
-    .form-outer .needs-validation .form-wrapper .devices .content h1{
+    .form-outer .needs-validation .form-wrapper .devices .content h1 {
         font-size: 20px;
     }
 
-    .form-outer .needs-validation .form-wrapper .devices .content .icon{
+    .form-outer .needs-validation .form-wrapper .devices .content .icon {
         padding: 0px 10px;
         font-size: 20px;
         font-weight: 700;
@@ -934,7 +956,7 @@ hr.device-divider {
         height: 250px;
     }
 
-    .form-outer .form-wrapper .row .upload-gambar button{
+    .form-outer .form-wrapper .row .upload-gambar button {
         width: 175px;
         height: 45px;
         font-size: 15px;
@@ -954,7 +976,7 @@ hr.device-divider {
         color: var(--white-color);
     }
 
-    .hub-kami .icon{
+    .hub-kami .icon {
         font-size: 20px;
     }
 
@@ -993,19 +1015,19 @@ hr.device-divider {
         width: 54px;
     }
 
-    .donations .donation .donation-content p{
+    .donations .donation .donation-content p {
         font-size: 16px;
     }
 
-    .donations .donation .donation-content h1{
+    .donations .donation .donation-content h1 {
         font-size: 20px;
     }
 
-    .tab-content .tab-pane .form-transaksi .form-transaksi-content .form-title h1{
+    .tab-content .tab-pane .form-transaksi .form-transaksi-content .form-title h1 {
         font-size: 18px;
     }
 
-    .tab-content .tab-pane .form-transaksi .form-transaksi-content .form-title hr{
+    .tab-content .tab-pane .form-transaksi .form-transaksi-content .form-title hr {
         border: 2px solid #492C09;
     }
 
@@ -1022,36 +1044,36 @@ hr.device-divider {
         border: 2px solid #492C09;
     }
 
-    .form-outer .needs-validation .form-wrapper .current-device .device-img .icon{
+    .form-outer .needs-validation .form-wrapper .current-device .device-img .icon {
         padding: 0px 15px;
         font-size: 80px;
     }
 
-    .form-outer .needs-validation .form-wrapper .current-device .device-title h1{
+    .form-outer .needs-validation .form-wrapper .current-device .device-title h1 {
         font-size: 28px;
         font-weight: 700;
     }
 
-    .form-outer .needs-validation .form-wrapper .current-device .device-title p{
+    .form-outer .needs-validation .form-wrapper .current-device .device-title p {
         font-size: 22px;
         font-weight: 400;
     }
 
-    .form-outer .needs-validation .form-wrapper .devices h1{
+    .form-outer .needs-validation .form-wrapper .devices h1 {
         font-size: 22px;
         font-weight: 700;
     }
 
-    .form-outer .needs-validation .form-wrapper .devices h2{
+    .form-outer .needs-validation .form-wrapper .devices h2 {
         font-size: 18px;
         font-weight: 400;
     }
 
-    .form-outer .needs-validation .form-wrapper .devices .content h1{
+    .form-outer .needs-validation .form-wrapper .devices .content h1 {
         font-size: 18px;
     }
 
-    .form-outer .needs-validation .form-wrapper .devices .content .icon{
+    .form-outer .needs-validation .form-wrapper .devices .content .icon {
         padding: 0px 10px;
         font-size: 18px;
         font-weight: 700;
@@ -1089,7 +1111,7 @@ hr.device-divider {
         color: var(--white-color);
     }
 
-    .hub-kami .icon{
+    .hub-kami .icon {
         font-size: 20px;
     }
 
@@ -1204,15 +1226,15 @@ hr.device-divider {
         width: 44px;
     }
 
-    .donations .donation .donation-content p{
+    .donations .donation .donation-content p {
         font-size: 14px;
     }
 
-    .donations .donation .donation-content h1{
+    .donations .donation .donation-content h1 {
         font-size: 18px;
     }
 
-    .tab-content .tab-pane .form-transaksi .form-transaksi-content .form-title h1{
+    .tab-content .tab-pane .form-transaksi .form-transaksi-content .form-title h1 {
         font-size: 16px;
     }
 
@@ -1223,7 +1245,7 @@ hr.device-divider {
         height: 280px;
     }
 
-    .form-outer .form-wrapper .row .upload-gambar button{
+    .form-outer .form-wrapper .row .upload-gambar button {
         width: 175px;
         height: 45px;
         font-size: 14px;
@@ -1240,36 +1262,36 @@ hr.device-divider {
 
     /* Connect Devices */
 
-    .form-outer .needs-validation .form-wrapper .current-device .device-img .icon{
+    .form-outer .needs-validation .form-wrapper .current-device .device-img .icon {
         padding: 0px 15px;
         font-size: 60px;
     }
 
-    .form-outer .needs-validation .form-wrapper .current-device .device-title h1{
+    .form-outer .needs-validation .form-wrapper .current-device .device-title h1 {
         font-size: 24px;
         font-weight: 700;
     }
 
-    .form-outer .needs-validation .form-wrapper .current-device .device-title p{
+    .form-outer .needs-validation .form-wrapper .current-device .device-title p {
         font-size: 16px;
         font-weight: 400;
     }
 
-    .form-outer .needs-validation .form-wrapper .devices h1{
+    .form-outer .needs-validation .form-wrapper .devices h1 {
         font-size: 16px;
         font-weight: 700;
     }
 
-    .form-outer .needs-validation .form-wrapper .devices h2{
+    .form-outer .needs-validation .form-wrapper .devices h2 {
         font-size: 14px;
         font-weight: 400;
     }
 
-    .form-outer .needs-validation .form-wrapper .devices .content h1{
+    .form-outer .needs-validation .form-wrapper .devices .content h1 {
         font-size: 16px;
     }
 
-    .form-outer .needs-validation .form-wrapper .devices .content .icon{
+    .form-outer .needs-validation .form-wrapper .devices .content .icon {
         padding: 0px 10px;
         font-size: 16px;
         font-weight: 700;
@@ -1277,16 +1299,16 @@ hr.device-divider {
 }
 
 @media screen and (max-width: 300px) {
-   /* Navbar */
+    /* Navbar */
 
-   .navbar .container-fluid a.navbar-brand img {
-    width: 180px;
+    .navbar .container-fluid a.navbar-brand img {
+        width: 180px;
     }
 
     .nav-tabs {
         width: 210px;
     }
-    
+
     /* Hubungi Kami */
 
     .hub-kami a {
@@ -1302,7 +1324,7 @@ hr.device-divider {
         color: var(--white-color);
     }
 
-    .hub-kami .icon{
+    .hub-kami .icon {
         font-size: 14px;
     }
 
@@ -1423,15 +1445,15 @@ hr.device-divider {
         width: 34px;
     }
 
-    .donations .donation .donation-content p{
+    .donations .donation .donation-content p {
         font-size: 12px;
     }
 
-    .donations .donation .donation-content h1{
+    .donations .donation .donation-content h1 {
         font-size: 16px;
     }
 
-    .tab-content .tab-pane .form-transaksi .form-transaksi-content .form-title h1{
+    .tab-content .tab-pane .form-transaksi .form-transaksi-content .form-title h1 {
         font-size: 14px;
     }
 
@@ -1442,7 +1464,7 @@ hr.device-divider {
         height: 300px;
     }
 
-    .form-outer .form-wrapper .row .upload-gambar button{
+    .form-outer .form-wrapper .row .upload-gambar button {
         width: 175px;
         height: 45px;
         font-size: 12px;
@@ -1459,39 +1481,39 @@ hr.device-divider {
 
     /* Connect Devices */
 
-    .form-outer .needs-validation .form-wrapper .current-device .device-img .icon{
+    .form-outer .needs-validation .form-wrapper .current-device .device-img .icon {
         padding: 0px 10px;
         font-size: 50px;
     }
 
-    .form-outer .needs-validation .form-wrapper .current-device .device-title h1{
+    .form-outer .needs-validation .form-wrapper .current-device .device-title h1 {
         font-size: 16px;
         font-weight: 700;
     }
 
-    .form-outer .needs-validation .form-wrapper .current-device .device-title p{
+    .form-outer .needs-validation .form-wrapper .current-device .device-title p {
         font-size: 14px;
         font-weight: 400;
     }
 
-    .form-outer .needs-validation .form-wrapper .devices h1{
+    .form-outer .needs-validation .form-wrapper .devices h1 {
         font-size: 14px;
         font-weight: 700;
     }
 
-    .form-outer .needs-validation .form-wrapper .devices h2{
+    .form-outer .needs-validation .form-wrapper .devices h2 {
         font-size: 12px;
         font-weight: 400;
     }
 
-    .form-outer .needs-validation .form-wrapper .devices .content h1{
+    .form-outer .needs-validation .form-wrapper .devices .content h1 {
         font-size: 16px;
     }
 
-    .form-outer .needs-validation .form-wrapper .devices .content .icon{
+    .form-outer .needs-validation .form-wrapper .devices .content .icon {
         padding: 0px 10px;
         font-size: 12px;
         font-weight: 700;
     }
-    
+
 }
