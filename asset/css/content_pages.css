@@ -465,8 +465,6 @@ textarea#deskripsi.form-control {
     border-radius: 10px;
 }
 
-/* Info Acara */
-
 .form-outer .needs-validation .form-wrapper .row .teks-tamu-checkbox h6 {
     margin: 20px 0px;
     font-weight: 700;
@@ -474,6 +472,111 @@ textarea#deskripsi.form-control {
     color: var(--dark-brown);
 }
 
+/* Informasi Acara */
+
+.form-outer .needs-validation .form-wrapper .acara {
+    padding: 30px 20px;
+    border: 1px solid #C99826;
+    border-radius: 10px;
+}
+
+.form-outer .needs-validation .form-wrapper .acara .tanggal-acara h1 {
+    padding: 10px 0;
+    margin: 0;
+    font-size: 18px;
+    font-weight: 800;
+    color: var(--dark-brown);
+}
+
+.acara .info-acara {
+    padding: 15px 30px;
+    background-color: var(--regular-brown);
+    border-radius: 10px;
+}
+
+.acara .info-acara .title {
+    width: 100%;
+    display: inline-flex;
+}
+
+.acara .info-acara .title h1 {
+    margin: 0;
+    font-size: 24px;
+    font-weight: 800;
+    color: var(--dark-brown);
+}
+
+.acara .info-acara .btn-edit {
+    padding: 2px 10px;
+    margin: 0 10px;
+    background-color: var(--dark-brown);
+    border-radius: 5px;
+}
+
+.acara .info-acara .btn-edit .icon {
+    color: var(--white-color);
+}
+
+.acara .info-acara .btn-delete {
+    padding: 2px 10px;
+    background-color: var(--background-icon-red);
+    border-radius: 5px;
+}
+
+.acara .info-acara .btn-delete .icon{
+    color: var(--white-color);
+}
+
+.acara .info-acara .content {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: 600;
+    color: var(--dark-brown);
+}
+
+.acara .tambah-acara {
+    display: flex;
+    justify-content: center;
+    padding: 0 300px;
+    margin-top: 20px;
+}
+
+.acara .tambah-acara a.btn-create {
+    padding: 40px 100px;
+    color: var(--dark-brown);
+    background-color: var(--regular-brown);
+}
+
+.acara .tambah-acara h1{
+    margin-top: 10px;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.acara .tambah-acara i{
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.tambah-hari {
+    display: flex;
+    justify-content: end;
+}
+
+a.btn-tambah-hari {
+    padding: 15px 15px;
+    margin-top: 20px;
+    font-size: 18px;
+    background-color: var(--regular-brown);
+    color: var(--white-color);
+}
+
+a.btn-tambah-hari:hover {
+    background-color: var(--regular-brown);
+    color: var(--white-color);
+}
 /* Cover Pembuka */
 
 /* Informasi Mempelai */
@@ -677,7 +780,6 @@ hr.device-divider {
 
 @media screen and (max-width: 991px) {}
 
-
 @media screen and (max-width: 767px) {
 
     /* Navbar */
@@ -707,7 +809,7 @@ hr.device-divider {
     }
 
     ul.dropdown-wrapper.dropdown-menu.text-small.show {
-        width: 325px;
+        width: 100%;
         margin-top: 10px;
         background-color: var(--dark-brown);
     }

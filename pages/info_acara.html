@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="/asset/img/dashboard_img/logo_brand.png">
+    <title>Cerita Cinta</title>
+
+    <link rel="stylesheet" href="/asset/css/content_pages.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.10.3/font/bootstrap-icons.min.css"
+        integrity="sha512-YFENbnqHbCRmJt5d+9lHimyEMt8LKSNTMLSaHjvsclnZGICeY/0KYEeiHwD1Ux4Tcao0h60tdcMv+0GljvWyHg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <link rel="stylesheet" type="text/css"
+        href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-md navbar-dark bg-brown">
+        <div class="container-fluid">
+
+            <a class="navbar-brand" href="#">
+                <img src="/asset/img/dashboard_img/logo_landscape.png" width="300">
+            </a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar2" aria-controls="offcanvasNavbar2">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavbar2" aria-labelledby="offcanvasNavbar2Label">
+                <div class="offcanvas-header">
+                    <a class="navbar-brand" href="#">
+                        <img src="/asset/img/dashboard_img/logo_landscape.png" width="300">
+                    </a>
+
+                    <button type="button" class="btn-close btn-close" data-bs-dismiss="offcanvas"
+                        aria-label="Close">
+                    </button>
+                </div>
+
+                <div class="offcanvas-body">
+                    <ul class="navbar-nav justify-content-end flex-grow-1">
+                        <a href="" class="btn btn-outline-light">PANDUAN</a>
+
+                        <div class="dropdown">
+                            <a href="#" class="d-flex justify-content-center align-items-center link-brown text-decoration-none dropdown-toggle"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                <img src="/asset/img/dashboard_img/photo-1.png" width="30">
+
+                                <p>Anne Leoharto</p>
+                            </a>
+
+                            <ul class="dropdown-wrapper dropdown-menu text-small">
+                                <li>
+                                    <a class="dropdown-item" href="#"><i class="bi bi-grid-3x2-gap" style="color: #C6A559;"></i> 
+                                        Dashboard
+                                    </a>
+                                </li>
+
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+
+                                <li>
+                                    <a class="dropdown-item" href="#"><i class="bi bi-power"style="color: #C6A559;"></i>
+                                        Sign out
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <section id="cerita-cinta">
+        <div class="container">
+            <div class="header">
+                <a href="#"><img src="/asset/img/pages_img/house 1.png" width="64"></a>
+                <h1>/ Informasi Acara</h1>
+            </div>
+
+            <div class="form-outer col-12">
+                <form action="" method="" class="needs-validation">
+                    <div class="form-wrapper">
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <label for="judul" class="form-label">Judul</label>
+                                <input type="text" class="form-control" id="judul" placeholder="Lorem Ipsum" value=""
+                                    required>
+                            </div>
+
+                            <div class="col-12 col-sm-12">
+                                <label for="deskripsi" class="form-label">Deskripsi</label>
+                                <textarea type="text" class="form-control" id="deskripsi" placeholder="" value="" required></textarea>
+                            </div>
+                        </div>
+
+                        <hr class="mt-1" style="border: 1px solid #492C09;">
+
+                        <div class="acara">
+                            <div class="tanggal-acara">
+                                <h1>
+                                    SUN, 29 JAN 2023
+                                </h1>
+                            </div>
+
+                            <div class="row">
+                                <div class="col-xxl-6">
+                                    <div class="info-acara">
+                                        <div class="d-flex">
+                                            <div class="title me-auto">
+                                                <h1>AKAD NIKAH</h1>
+                                            </div>
+    
+                                            <div class="btn-edit">
+                                                <a href=""><i class="icon fa-solid fa-pen"></i></a>
+                                            </div>
+    
+                                            <div class="btn-delete">
+                                                <a href=""><i class="icon fa-solid fa-trash"></i></a>
+                                            </div>
+                                        </div>
+
+                                        <div class="content">
+                                            <div class="d-flex flex-column">
+                                                <p><i class="icon fa-regular fa-clock"></i> 09.00 - 10.00</p>
+                                                <p><i class="icon fas fa-regular fa-location-dot"></i> Lorem Ipsum</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-xxl-6">
+                                    <div class="info-acara">
+                                        <div class="d-flex">
+                                            <div class="title me-auto">
+                                                <h1>RESEPSI</h1>
+                                            </div>
+    
+                                            <div class="btn-edit">
+                                                <a href=""><i class="icon fa-solid fa-pen"></i></a>
+                                            </div>
+    
+                                            <div class="btn-delete">
+                                                <a href=""><i class="icon fa-solid fa-trash"></i></a>
+                                            </div>
+                                        </div>
+
+                                        <div class="content">
+                                            <div class="d-flex flex-column">
+                                                <p><i class="icon fa-regular fa-clock"></i> 11.00 - 22.00</p>
+                                                <p><i class="icon fas fa-regular fa-location-dot"></i> Lorem Ipsum</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="tambah-acara col-xxl-12">
+                                    <a class="btn btn-create">
+                                        <i class="fa-solid fa-plus"></i>
+                                        <h1>Tambah Acara</h1>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="tambah-hari">
+                            <a href="" class="btn btn-tambah-hari">
+                                <i class="fa-solid fa-calendar-days"></i> 
+                                Tambah Hari
+                            </a>
+                        </div>
+                    </div>
+
+
+                    <div class="button-save">
+                        <a href="#">Simpan</a>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+        <div class="hub-kami">
+            <a href="#"><i class="icon fa-brands fa-whatsapp"></i> Hubungi Kami</a>
+        </div>
+
+        <footer>
+            <p class="text-center">Copyright &copy; 2023 <b>YAN INVITATION</b> · Syarat dan Ketentuan · Kebijakan
+                Privasi</p>
+        </footer>
+
+    </section>
+
+
+    <script type="text/javascript" src="/asset/js/content_pages.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous">
+    </script>
+
+</body>
+
+</html>
