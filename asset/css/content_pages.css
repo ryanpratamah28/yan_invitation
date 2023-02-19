@@ -490,16 +490,20 @@ textarea#deskripsi.form-control {
 
 .acara .info-acara {
     padding: 15px 30px;
+    margin-top: 20px;
     background-color: var(--regular-brown);
     border-radius: 10px;
 }
 
-.acara .info-acara .title {
-    width: 100%;
-    display: inline-flex;
+.acara .info-acara .title-wrapper {
+    display: flex;
 }
 
-.acara .info-acara .title h1 {
+.acara .info-acara .title-wrapper .title {
+    width: 100%;
+}
+
+.acara .info-acara .title-wrapper .title h1 {
     margin: 0;
     font-size: 24px;
     font-weight: 800;
@@ -539,7 +543,6 @@ textarea#deskripsi.form-control {
 .acara .tambah-acara {
     display: flex;
     justify-content: center;
-    padding: 0 300px;
     margin-top: 20px;
 }
 
@@ -577,6 +580,7 @@ a.btn-tambah-hari:hover {
     background-color: var(--regular-brown);
     color: var(--white-color);
 }
+
 /* Cover Pembuka */
 
 /* Informasi Mempelai */
@@ -774,7 +778,13 @@ hr.device-divider {
 /* Responsive */
 
 
-@media screen and (max-width: 1400px) {}
+@media screen and (max-width: 1400px) {
+    /* Info Acara */
+
+    .acara .tambah-acara a.btn-create {
+        width: 100%;
+    }
+}
 
 @media screen and (max-width: 1200px) {}
 
@@ -1181,6 +1191,65 @@ hr.device-divider {
         font-weight: 700;
     }
 
+    /* Informasi Acara */
+
+    .form-outer .needs-validation .form-wrapper .acara {
+        padding: 20px 20px;
+    }
+
+    .form-outer .needs-validation .form-wrapper .acara .tanggal-acara h1 {
+        padding: 10px 0;
+        font-size: 16px;
+    }
+
+    .acara .info-acara {
+        padding: 15px 20px;
+        margin-top: 20px;
+    }
+
+    .acara .info-acara .title-wrapper .title h1 {
+        font-size: 22px;
+    }
+
+    .acara .info-acara .btn-edit {
+        padding: 2px 10px;
+        margin: 0 10px;
+    }
+
+    .acara .info-acara .btn-delete {
+        padding: 2px 10px;
+    }
+
+    .acara .info-acara .content {
+        margin-top: 20px;
+        font-size: 18px;
+    }
+
+    .acara .tambah-acara {
+        margin-top: 20px;
+    }
+    
+    .acara .tambah-acara a.btn-create {
+        padding: 40px 70px;
+    }
+
+    .acara .tambah-acara h1{
+        margin-top: 10px;
+        font-size: 20px;
+        font-weight: 700;
+    }
+
+    .acara .tambah-acara i{
+        font-size: 50px;
+        font-weight: 700;
+    }
+
+    a.btn-tambah-hari {
+        padding: 15px 15px;
+        margin-top: 20px;
+        font-size: 16px;
+    }
+
     /* Footer */
 
     footer p {
@@ -1397,6 +1466,83 @@ hr.device-divider {
         padding: 0px 10px;
         font-size: 16px;
         font-weight: 700;
+    }
+
+    /* Informasi Acara */
+
+    .form-outer .needs-validation .form-wrapper .acara {
+        padding: 20px 20px;
+    }
+
+    .form-outer .needs-validation .form-wrapper .acara .tanggal-acara h1 {
+        padding: 10px 0;
+        font-size: 14px;
+    }
+
+    .acara .info-acara {
+        padding: 15px 20px;
+        margin-top: 20px;
+    }
+
+    .acara .info-acara .title-wrapper {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    
+    .acara .info-acara .title-wrapper .title h1 {
+        border-top: 1px solid #492C09;
+        padding-top: 15px;
+        font-size: 20px;
+    }
+
+    .acara .info-acara .btn-edit {
+        display: flex;
+        justify-content: center;
+        font-size: 14px;
+        padding: 10px 0px;
+        margin: 0;
+        margin-bottom: 10px;
+        
+    }
+
+    .acara .info-acara .btn-delete {
+        display: flex;
+        justify-content: center;
+        font-size: 14px;
+        padding: 10px 0px;
+        margin: 0;
+        margin-bottom: 10px;
+    }
+
+    .acara .info-acara .content {
+        margin-top: 20px;
+        font-size: 16px;
+    }
+
+    .acara .tambah-acara {
+        margin-top: 20px;
+    }
+    
+    .acara .tambah-acara a.btn-create {
+        padding: 40px 70px;
+    }
+
+    .acara .tambah-acara h1{
+        margin-top: 10px;
+        font-size: 18px;
+        font-weight: 700;
+    }
+
+    .acara .tambah-acara i{
+        font-size: 40px;
+        font-weight: 700;
+    }
+
+    a.btn-tambah-hari {
+        width: 100%;
+        padding: 15px 15px;
+        margin-top: 20px;
+        font-size: 14px;
     }
 }
 
@@ -1618,4 +1764,75 @@ hr.device-divider {
         font-weight: 700;
     }
 
+    /* Informasi Acara */
+
+    .form-outer .needs-validation .form-wrapper .acara {
+        padding: 10px 10px;
+    }
+
+    .form-outer .needs-validation .form-wrapper .acara .tanggal-acara h1 {
+        padding: 5px 0;
+        font-size: 12px;
+    }
+
+    .acara .info-acara {
+        padding: 15px 10px;
+        margin-top: 10px;
+    }
+
+    .acara .info-acara .title-wrapper .title h1 {
+        border-top: 1px solid #492C09;
+        padding-top: 15px;
+        font-size: 18px;
+    }
+
+    .acara .info-acara .btn-edit {
+        display: flex;
+        justify-content: center;
+        font-size: 14px;
+        padding: 10px 0px;
+        margin: 0;
+        margin-bottom: 10px;
+        
+    }
+
+    .acara .info-acara .btn-delete {
+        display: flex;
+        justify-content: center;
+        font-size: 14px;
+        padding: 10px 0px;
+        margin: 0;
+        margin-bottom: 10px;
+    }
+
+    .acara .info-acara .content {
+        margin-top: 20px;
+        font-size: 16px;
+    }
+
+    .acara .tambah-acara {
+        margin-top: 20px;
+    }
+    
+    .acara .tambah-acara a.btn-create {
+        padding: 40px 30px;
+    }
+
+    .acara .tambah-acara h1{
+        margin-top: 10px;
+        font-size: 18px;
+        font-weight: 700;
+    }
+
+    .acara .tambah-acara i{
+        font-size: 40px;
+        font-weight: 700;
+    }
+
+    a.btn-tambah-hari {
+        width: 100%;
+        padding: 15px 15px;
+        margin-top: 20px;
+        font-size: 12px;
+    }
 }
