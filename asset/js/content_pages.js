@@ -1,3 +1,16 @@
+// Button
+
+$('.btn-toggle').click(function() {
+    $(this).find('.btn').toggleClass('active');  
+    
+    if ($(this).find('.btn-dark-brown').length>0) {
+    	$(this).find('.btn').toggleClass('btn-dark-brown');
+    }
+    if ($(this).find('.btn-brown').length>0) {
+    	$(this).find('.btn').toggleClass('btn-brown');
+    }       
+});
+
 // Ucapan Pernikahan
 
 const dropArea = document.querySelector(".drag-area"),

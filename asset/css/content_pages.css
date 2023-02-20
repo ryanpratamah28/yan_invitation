@@ -133,6 +133,35 @@ footer p {
     color: var(--light-brown);
 }
 
+/* Button */
+
+button.btn-brown{
+	padding: 0 40px;
+	border-radius: 2px;
+	color: #fff;
+	background-color: #C6A559;
+	border-color: #C6A559;
+}
+
+button.btn-brown:hover{
+	color: #fff;
+	background-color: #C6A559;
+}
+
+button.btn-dark-brown.active {
+	padding: 0 40px;
+	border-radius: 2px;
+	color: #fff;
+	background-color: #492C09;
+	border-color: #492C09;
+}
+
+button.btn-dark-brown:hover{
+	color: #fff;
+	background-color: #492C09;
+	border-color: #492C09;
+}
+
 /* Cerita Cinta */
 
 #cerita-cinta {
@@ -317,7 +346,7 @@ textarea#deskripsi.form-control {
 }
 
 .form-outer .needs-validation .form-wrapper .checkbox p {
-    padding: 10px 0;
+    padding-bottom: 10px;
     margin: 0;
     font-size: 18px;
     font-weight: 700;
@@ -373,7 +402,7 @@ textarea#deskripsi.form-control {
 }
 
 .tab-content .tab-pane .checkbox h6 {
-    margin: 10px 0px;
+    margin-bottom: 20px;
     font-weight: 700;
     font-size: 18px;
     color: var(--dark-brown);
@@ -466,7 +495,7 @@ textarea#deskripsi.form-control {
 }
 
 .form-outer .needs-validation .form-wrapper .row .teks-tamu-checkbox h6 {
-    margin: 20px 0px;
+    margin-bottom: 20px;
     font-weight: 700;
     font-size: 18px;
     color: var(--dark-brown);
