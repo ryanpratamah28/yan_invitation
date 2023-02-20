@@ -775,6 +775,170 @@ hr.device-divider {
     -ms-transform: translate(-50%, -50%);
 }
 
+/* Informasi Tambahan */
+
+.form-outer .needs-validation .form-wrapper .language {
+    display: flex;
+    justify-content: end;
+}
+
+.form-outer .needs-validation .form-wrapper .language a.lang {
+    padding: 7px 15px;
+    margin: 0 0 0 10px;
+    background-color: var(--regular-brown);
+    font-size: 24px;
+    font-weight: 700;
+    color: var(--dark-brown);
+    border-radius: 50px;
+    text-decoration: none;
+}
+
+.form-outer .needs-validation .form-wrapper .language a.lang img {
+    width: 24px;
+}
+
+.form-alamat label {
+    margin-bottom: 5px;
+    font-size: 18px;
+    font-weight: 700;
+    color: var(--dark-brown);
+}
+
+.form-alamat .input-group input.form-control.alamat-website  {
+    margin: 0;
+    height: 40px;
+    border: 1px solid #492C09;
+    border-radius: 10px;
+}
+
+.form-alamat .input-group span.input-group-text.alamat-website {
+    font-size: 18px;
+    font-weight: 700;
+    background-color: var(--dark-brown);
+    color: var(--light-brown);
+    border: 1px solid #492C09;
+    border-radius: 10px;
+}
+
+.select-lagu label {
+    margin-bottom: 5px;
+    font-size: 18px;
+    font-weight: 700;
+    color: var(--dark-brown);
+}
+
+.live-stream label {
+    margin: 0;
+    font-size: 18px;
+    font-weight: 700;
+    color: var(--dark-brown);
+}
+
+.live-stream .sosmed {
+    display: flex;
+    justify-content: start;
+    padding: 30px 0;
+}
+
+.live-stream .sosmed a{
+    padding: 10px 10px;
+    margin: 0 15px 0 0;
+    font-size: 18px;
+    font-weight: 600;
+    text-decoration: none;
+    background-color: var(--regular-brown);
+    color: var(--dark-brown);
+    border: 1px solid #492C09;
+    border-radius: 10px;
+}
+
+.live-stream .sosmed a:hover{
+    border: 2px solid #492C09;
+}
+
+.pict-insta {
+    border: 2px dashed #3B270C;
+    height: 280px;
+    width: 100%;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.pict-insta.active {
+    border: 2px solid #fff;
+}
+
+.pict-insta .icon {
+    font-size: 60px;
+    color: #C6A559;
+}
+
+.pict-insta header {
+    font-size: 18px;
+    font-weight: 500;
+    color: var(--darker-brown);
+}
+
+.pict-insta span {
+    font-size: 20px;
+    font-weight: 500;
+    color: var(--darker-brown);
+    margin: 10px 0 15px 0;
+}
+
+.pict-insta button {
+    padding: 10px 25px;
+    font-size: 20px;
+    font-weight: 500;
+    border: none;
+    outline: none;
+    background: var(--darker-brown);
+    color: var(--regular-brown);
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.pict-insta img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.desain-kesehatan a {
+    text-decoration: none;
+}
+
+div.card.poster-kesehatan {
+    margin-top: 20px;
+    filter: drop-shadow(-10px 10px 10px rgba(73, 44, 9, 0.25));
+    border-radius: 20px;
+}
+
+div.card.poster-kesehatan img.card-img {
+    width: 100%;
+    border-radius: 20px;
+}
+
+div.card-img-overlay{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    background-color: rgba(0, 0, 0, 0.605);
+}   
+
+div.card-img-overlay h1.card-title {
+    font-size: 32px;
+    font-weight: 700;
+    color: var(--light-brown);
+}
+
 /* Responsive */
 
 
@@ -989,6 +1153,121 @@ hr.device-divider {
         padding: 0px 10px;
         font-size: 20px;
         font-weight: 700;
+    }
+
+    /* Informasi Tambahan */
+
+    .form-outer .needs-validation .form-wrapper .language {
+        display: flex;
+        justify-content: end;
+    }
+
+    .form-outer .needs-validation .form-wrapper .language a.lang {
+        padding: 7px 15px;
+        margin: 0 0 0 10px;
+        font-size: 20px;
+        border-radius: 50px;
+    }
+
+    .form-outer .needs-validation .form-wrapper .language a.lang img {
+        width: 20px;
+    }
+
+    .form-alamat label {
+        margin-bottom: 5px;
+        font-size: 18px;
+        font-weight: 700;
+        color: var(--dark-brown);
+    }
+
+    .form-alamat .input-group input.form-control.alamat-website  {
+        margin: 0;
+        height: 40px;
+    }
+
+    .form-alamat .input-group span.input-group-text.alamat-website {
+        font-size: 18px;
+    }
+
+    .select-lagu label {
+        margin-bottom: 5px;
+        font-size: 18px;
+    }
+
+    .live-stream label {
+        margin: 0;
+        font-size: 18px;
+    }
+
+    .live-stream .sosmed {
+        display: flex;
+        justify-content: start;
+        padding: 30px 0;
+    }
+
+    .live-stream .sosmed a{
+        padding: 10px 10px;
+        margin: 0 15px 0 0;
+        font-size: 18px;
+    }
+
+    div.card.poster-kesehatan {
+        margin-top: 20px;
+    }
+
+    div.card-img-overlay{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }   
+
+    div.card-img-overlay h1.card-title {
+        font-size: 32px;
+    }
+
+    .pict-insta {
+        height: 380px;
+    }
+
+    .pict-insta.active {
+        border: 2px solid #fff;
+    }
+
+    .pict-insta .icon {
+        font-size: 120px;
+        color: #C6A559;
+    }
+
+    .pict-insta header {
+        font-size: 18px;
+        font-weight: 500;
+        color: var(--darker-brown);
+    }
+
+    .pict-insta span {
+        font-size: 20px;
+        font-weight: 500;
+        color: var(--darker-brown);
+        margin: 10px 0 15px 0;
+    }
+
+    .pict-insta button {
+        padding: 10px 20px;
+        font-size: 20px;
+        font-weight: 500;
+        border: none;
+        outline: none;
+        background: var(--darker-brown);
+        color: var(--regular-brown);
+        border-radius: 5px;
+        cursor: pointer;
+    }
+
+    .pict-insta img {
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+        border-radius: 5px;
     }
 
 }
@@ -1249,6 +1528,97 @@ hr.device-divider {
         margin-top: 20px;
         font-size: 16px;
     }
+
+    /* Informasi Tambahan */
+
+    .form-outer .needs-validation .form-wrapper .language {
+        display: flex;
+        justify-content: end;
+    }
+
+    .form-outer .needs-validation .form-wrapper .language a.lang {
+        padding: 7px 15px;
+        margin: 0 0 0 10px;
+        font-size: 18px;
+        border-radius: 50px;
+    }
+
+    .form-outer .needs-validation .form-wrapper .language a.lang img {
+        width: 18px;
+    }
+
+    .form-alamat label {
+        margin-bottom: 5px;
+        font-size: 16px;
+        font-weight: 700;
+        color: var(--dark-brown);
+    }
+
+    .form-alamat .input-group input.form-control.alamat-website  {
+        margin: 0;
+        height: 40px;
+    }
+
+    .form-alamat .input-group span.input-group-text.alamat-website {
+        font-size: 16px;
+    }
+
+    .select-lagu label {
+        margin-bottom: 5px;
+        font-size: 16px;
+    }
+
+    .live-stream label {
+        margin: 0;
+        font-size: 16px;
+    }
+
+    .live-stream .sosmed {
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        padding: 10px 0 20px 0;
+    }
+
+    .live-stream .sosmed a{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 10px 10px;
+        margin: 15px 0 0 0;
+        font-size: 16px;
+    }
+
+    .live-stream .sosmed a i.icon{
+        margin: 0 5px;
+    }
+
+    div.card.poster-kesehatan {
+        margin-top: 20px;
+    }
+
+    div.card-img-overlay{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }   
+
+    div.card-img-overlay h1.card-title {
+        font-size: 28px;
+    }
+    
+    .pict-insta header {
+        font-size: 16px;
+    }
+
+    .pict-insta span {
+        font-size: 18px;
+    }
+
+    .pict-insta  button {
+        font-size: 16px;
+    }
+
 
     /* Footer */
 
@@ -1544,6 +1914,101 @@ hr.device-divider {
         margin-top: 20px;
         font-size: 14px;
     }
+
+    /* Informasi Tambahan */
+
+    .form-outer .needs-validation .form-wrapper .language {
+        display: flex;
+        justify-content: end;
+    }
+
+    .form-outer .needs-validation .form-wrapper .language a.lang {
+        padding: 7px 15px;
+        margin: 0 0 0 10px;
+        font-size: 14px;
+        border-radius: 50px;
+    }
+
+    .form-outer .needs-validation .form-wrapper .language a.lang img {
+        width: 14px;
+    }
+
+    .form-alamat label {
+        margin-bottom: 5px;
+        font-size: 14px;
+        font-weight: 700;
+        color: var(--dark-brown);
+    }
+
+    .form-alamat .input-group input.form-control.alamat-website  {
+        margin: 0;
+        height: 40px;
+    }
+
+    .form-alamat .input-group span.input-group-text.alamat-website {
+        font-size: 14px;
+    }
+
+    .select-lagu label {
+        margin-bottom: 5px;
+        font-size: 14px;
+    }
+
+    .live-stream label {
+        margin: 0;
+        font-size: 14px;
+    }
+
+    .live-stream .sosmed {
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        padding: 10px 0 20px 0;
+    }
+
+    .live-stream .sosmed a{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 10px 10px;
+        margin: 15px 0 0 0;
+        font-size: 14px;
+    }
+
+    .live-stream .sosmed a i.icon{
+        margin: 0 5px;
+    }
+
+    div.card.poster-kesehatan {
+        margin-top: 20px;
+    }
+
+    div.card-img-overlay{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }   
+
+    div.card-img-overlay h1.card-title {
+        font-size: 26px;
+    }
+
+    .pict-insta .icon {
+        font-size: 80px;
+        color: #C6A559;
+    }
+
+    .pict-insta  header {
+        font-size: 14px;
+    }
+
+    .pict-insta  span {
+        font-size: 16px;
+    }
+
+    .pict-insta button {
+        font-size: 14px;
+    }
 }
 
 @media screen and (max-width: 300px) {
@@ -1833,6 +2298,101 @@ hr.device-divider {
         width: 100%;
         padding: 15px 15px;
         margin-top: 20px;
+        font-size: 12px;
+    }
+
+    /* Informasi Tambahan */
+
+    .form-outer .needs-validation .form-wrapper .language {
+        display: flex;
+        justify-content: end;
+    }
+
+    .form-outer .needs-validation .form-wrapper .language a.lang {
+        padding: 7px 15px;
+        margin: 0 0 0 10px;
+        font-size: 12px;
+        border-radius: 50px;
+    }
+
+    .form-outer .needs-validation .form-wrapper .language a.lang img {
+        width: 12px;
+    }
+
+    .form-alamat label {
+        margin-bottom: 5px;
+        font-size: 12px;
+        font-weight: 700;
+        color: var(--dark-brown);
+    }
+
+    .form-alamat .input-group input.form-control.alamat-website  {
+        margin: 0;
+        height: 40px;
+    }
+
+    .form-alamat .input-group span.input-group-text.alamat-website {
+        font-size: 12px;
+    }
+
+    .select-lagu label {
+        margin-bottom: 5px;
+        font-size: 12px;
+    }
+
+    .live-stream label {
+        margin: 0;
+        font-size: 12px;
+    }
+
+    .live-stream .sosmed {
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        padding: 10px 0 20px 0;
+    }
+
+    .live-stream .sosmed a{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 10px 10px;
+        margin: 15px 0 0 0;
+        font-size: 12px;
+    }
+
+    .live-stream .sosmed a i.icon{
+        margin: 0 5px;
+    }
+
+    div.card.poster-kesehatan {
+        margin-top: 20px;
+    }
+
+    div.card-img-overlay{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }   
+
+    div.card-img-overlay h1.card-title {
+        font-size: 24px;
+    }
+
+    .pict-insta  .icon {
+        font-size: 60px;
+        color: #C6A559;
+    }
+
+    .pict-insta  header {
+        font-size: 12px;
+    }
+
+    .pict-insta  span {
+        font-size: 14px;
+    }
+
+    .pict-insta  button {
         font-size: 12px;
     }
 }
