@@ -1,0 +1,911 @@
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+:root {
+    --white-color: #fff;
+    --light-brown: #E0CBA0;
+    --regular-brown: #C6A559;
+    --dark-brown: #492C09;
+    --darker-brown: #3B270C;
+    --background-icon-green: #41C336;
+    --background-icon-red: #FF0202;
+}
+
+html body{
+    background-color: var(--darker-brown);
+    font-family: 'Public Sans', sans-serif;
+}
+
+/* width scrollbar */
+
+::-webkit-scrollbar {
+    width: 14px;
+}
+
+/* Handle scrollbar */
+
+::-webkit-scrollbar-thumb {
+    background: var(--regular-brown);
+    border-radius: 10px;
+}
+
+/* Track scrollbar */
+
+::-webkit-scrollbar-track {
+    background: var(--darker-brown);
+}
+
+/* Body */
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Public Sans', sans-serif;
+}
+
+
+/* Navbar */
+
+.bg-brown {
+    background-color: var(--darker-brown);
+}
+
+a.btn-outline-light {
+    display: block;
+    margin: auto;
+    margin-right: 30px;
+    width: 174px;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 50px;
+    color: var(--regular-brown);
+    border-color: var(--regular-brown);
+    padding: 16px 32px;
+}
+
+.navbar-nav .dropdown {
+    display: flex;
+    margin-top: 30px;
+    padding: 15px 20px;
+    background-color: var(--darker-brown);
+    border: 1px solid #C6A559;
+    border-radius: 50px;
+}
+
+.navbar-nav .dropdown a.d-flex.link-brown {
+    color: var(--regular-brown);
+}
+
+.navbar-nav .dropdown a p {
+    margin: 0 10px;
+}
+
+ul.dropdown-wrapper.dropdown-menu.text-small.show {
+    width: 210px;
+    margin-top: 10px;
+    background-color: var(--dark-brown);
+}
+
+li a.dropdown-item {
+    font-size: 16px;
+    color: var(--regular-brown);
+}
+
+li a.dropdown-item:hover {
+    font-size: 16px;
+    color: var(--white-color);
+    background-color: var(--dark-brown);
+}
+
+/* Navbar Offcanvas */
+
+.navbar .container-fluid .offcanvas {
+    background-color: var(--light-brown);
+}
+
+.navbar .container-fluid .offcanvas-header .btn-close {
+    margin-bottom: 70px;
+}
+
+
+/* Kelola Buku Tamu */
+
+.container{
+    margin-top: 50px;
+}
+
+.container .header {
+    display: flex;
+    padding: 20px 90px;
+}
+
+.container .header h1 {
+    display: flex;
+    align-items: end;
+    color: var(--regular-brown);
+    font-size: 20px;
+    padding: 0 10px;
+    margin: 0;
+}
+
+.container .row .flex1{
+    display: flex;
+    justify-content: center;
+    column-gap: 50px;
+    flex-wrap: wrap;
+    margin-bottom: 50px;
+    row-gap: 30px;
+}
+
+.container .row .col-5{
+    background-color: #E0CBA0;
+}
+
+.container .row .flex1 .col-5.top{
+    border-radius: 15px;
+    padding: 10px 20px;
+    min-height: 215px;
+}
+
+.flex1 .col-5.top .title .title-text h5{
+    margin-left: 25px;
+    margin-top: -22px;
+}
+
+.flex1 .col-5.top .title .title-text a{
+    float: right;
+    margin-top: -30px;
+    color: #1a4f7a;
+}
+
+.flex1 .col-5.top .title hr{
+    margin-top: -2px;
+}
+
+.flex1 .col-5.top .content{
+    display: flex;
+    column-gap: 25px;
+}
+
+.flex1 .col-5.top .content .content-left{
+    width: 250px;
+    margin-top: 20px;
+}
+
+.flex1 .col-5.top .content .content-left p{
+    margin: 0 0 5px 20px;
+}
+
+.flex1 .col-5.top .content .content-left svg{
+    position: absolute;
+    margin: -18px 0 0 -23px;
+}
+
+.flex1 .col-5.top .content .content-left hr{
+    margin-top: 0;
+    border: 1px solid #2c1b06;
+}
+
+.flex1 .col-5.top .content .content-left small{
+    float: right;
+    margin-top: -25px;
+    font-weight: bold;
+    color: #492C09;
+}
+
+.flex1 .col-5.top .content .content-right{
+    background-color: #C6A559;
+    width: 130px;
+    height: 130px;
+    padding-top: -10px;
+    text-align: center;
+    border-radius: 100%;
+    margin: 15px 0 0 5px;
+}
+
+.flex1 .col-5.top .content .content-right .circle{
+    border-radius: 100%;
+    border: 8px solid #E0CBA0;
+    width: 100px;
+    height: 100px;
+    margin-top: 15px;
+    margin-left: 15px;
+    padding-top: 10px;
+    font-weight: bold;
+    font-size: 20px;
+    color: #3B270C;
+}
+
+.flex1 .col-5.right{
+    border-radius: 15px;
+    padding: 15px 25px;
+    min-height: 215px;
+    background-color: transparent;
+    border: 1px solid #C6A559;
+    color: #E0CBA0;
+}
+
+.flex1 .col-5.right button{
+    width: 100%;
+    border: none;
+    background-color: #E0CBA0;
+    border-radius: 10px;
+    padding: 6px 0;
+    color: #492C09;
+    font-weight: bold;
+}
+
+.flex1 .col-5.right a{
+    color: #34638a;
+}
+
+.flex1 .col-5.right .content-flex{
+    display: flex;
+    justify-content: center;
+    column-gap: 70px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+.flex1 .col-5.right .content-flex .child{
+    width: 170px;
+}
+
+.flex1 .col-5.right .content-flex .child button{
+    margin-top: -5px;
+}
+
+.container .row .tab-form{
+    justify-content: center;
+    display: flex;
+}
+
+.container .row .col-9{
+    background-color: #E0CBA0;
+    height: auto;
+    margin-bottom: 40px;
+    border-radius: 20px;
+    box-shadow: 0 0 20px 0px #C6A559;
+}
+
+.col-9 .button-bottom{
+    width: 100%;
+    border: none;
+    background-color: #C6A559;
+    font-weight: bold;
+    color: #ffffff;
+    padding: 10px 0;
+    margin-top: 50px;
+    border-radius: 0 0 20px 20px;
+}
+
+.col-9 .w3-row {
+    display: flex;
+    justify-content: left;
+    padding: 40px 40px 20px 40px;
+}
+
+.col-9 .w3-row a{
+    text-decoration: none;
+}
+
+.col-9 .w3-row a .tablink{
+    border-bottom: 2px solid black;
+    padding: 0 40px 0 40px;
+}
+
+.col-9 .w3-row a .tablink.right{
+    border-bottom: 2px solid black;
+    padding-right: 255px;
+}
+
+.col-9 .w3-container{
+    padding-left: 40px;
+    margin-right: 35px;
+}
+
+.button-bar .btn-flex1{
+    float: left;
+    display: flex;
+    column-gap: 20px;
+}
+
+.button-bar .btn-flex1 .plus,.share,.dropdown,.reload{
+    border: 0;
+    margin: 10px 0 30px 0;
+    border-radius: 7px;
+}
+
+.btn-flex1 .plus{
+    background-color: #C6A559;
+    padding: 5px 15px;
+}
+
+.btn-flex1 .share{
+    background-color: transparent;
+    border: 1px solid black;
+    padding: 5px 15px;
+}
+
+.btn-flex1 .dropdown{
+    background-color: transparent;
+    border: 1px solid black;
+    padding: 5px 15px;
+}
+
+.btn-flex1 .reload{
+    background-color: transparent;
+    border: 1px solid black;
+    padding: 0 15px;
+}
+
+.button-bar .btn-flex2{
+    float: right;
+    display: flex;
+    margin-right: 0px;
+    column-gap: 20px;
+    margin-top: 10px;
+}
+
+.button-bar .btn-flex2 .edit{
+    border: none;
+    padding: 10px 20px;
+    background-color: #C6A559;
+    border-radius: 7px;
+}
+
+.button-bar .btn-flex2 .search{
+    padding: 10px;
+    border-radius: 7px;
+    border: 1px solid black;
+    background-color: transparent;
+}
+    
+.table th,td{
+    color: #492C09;
+    font-size: 11px;
+}
+
+.tamu0{
+    margin: 100px 0 50px 0;
+    text-align: center;
+}
+
+.tamu0 p{
+    margin-top: 10px;
+}
+
+
+
+/* Responsive */
+
+@media screen and (max-width: 1400px) {
+    
+}
+
+@media screen and (max-width: 1200px) {
+    /* Header */
+    .container .header {
+        display: flex;
+        padding: 20px 60px;
+    }
+
+    /* Kelola Buku Tamu */
+
+    .flex1 .col-5.top .content .content-right{
+        width: 120px;
+        height: 120px;
+        margin: 30px 0 0 5px;
+    }
+    
+    .flex1 .col-5.top .content .content-right .circle{
+        padding-top: 10px;
+        margin: 10px 10px 0 10px;
+    }
+
+    .col-9 .w3-row a .tablink{
+        padding: 0 40px 0 40px;
+        width: 190px;
+    }
+    
+    .col-9 .w3-row a .tablink.right{
+        width: 190px;
+        padding: 0 40px 0 40px;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    /* Header */
+
+    .container .header {
+        display: flex;
+        padding: 20px 130px;
+    }
+
+    /* Kelola Buku Tamu */
+
+    .flex1{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .flex1 .col-5.top,.col-5.right{
+        width: 450px;
+    }
+
+    .col-9 .w3-row a .tablink{
+        padding: 0 20px 0 20px;
+        width: 150px;
+    }
+    
+    .col-9 .w3-row a .tablink.right{
+        width: 150px;
+        padding: 0 20px 0 20px;
+    }
+
+    .btn-flex1 .plus{
+        padding: 5px 10px;
+        font-size: 12px;
+    }
+    
+    .btn-flex1 .share{
+        font-size: 12px;
+    }
+    
+    .btn-flex1 .dropdown{
+        font-size: 12px;
+    }
+
+    .btn-flex1 .reload{
+        padding: 0 15px;
+    }
+
+    .button-bar .btn-flex2{
+        margin: -10px 0 20px 0;
+    }
+
+    .button-bar .btn-flex2 .edit{
+        font-size: 12px;
+    }
+}
+
+@media screen and (width: 768px) {
+    /* Header */
+
+    .container .header {
+        padding: 15px 0px;
+    }
+
+    .container .header h1 {
+        font-size: 20px;
+    }
+}
+
+
+@media screen and (max-width: 767px) {
+    /* Navbar */
+
+    a.btn-outline-light {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        margin: 0;
+        margin-bottom: 25px;
+        font-size: 18px;
+        font-weight: 600;
+        border-radius: 10px;
+        color: var(--dark-brown);
+        border-color: var(--dark-brown);
+        padding: 10px 16px;
+    }
+
+    .navbar-nav .dropdown {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 15px 20px;
+        background-color: var(--light-brown);
+        border: 1px solid #492C09;
+        border-radius: 10px;
+    }
+
+    ul.dropdown-wrapper.dropdown-menu.text-small.show {
+        width: 100%;
+        margin-top: 10px;
+        background-color: var(--dark-brown);
+    }
+
+    li a.dropdown-item {
+        font-size: 16px;
+        color: var(--regular-brown);
+    }
+
+    /* Navbar Offcanvas */
+
+    .navbar-nav .dropdown a.d-flex.link-brown {
+        font-weight: 600;
+        font-size: 18px;
+        color: var(--dark-brown);
+    }
+
+    .navbar-nav .dropdown a.d-flex.link-brown img {
+        width: 30px;
+    }
+
+    /* Header */
+
+    .container .header {
+        display: flex;
+        padding: 20px 40px;
+    }
+
+    /* Kelola Buku Tamu */
+
+    .tab-form .col-9{
+        width: 500px;
+    }
+    .col-9 .w3-row a .tablink{
+        margin-left: -8px;
+    }
+
+    .button-bar .btn-flex2{
+        margin-right: 130px;
+        column-gap: 10px;
+    }
+
+    
+}
+
+
+@media screen and (max-width: 576px) {
+    /* Navbar */
+
+    a.btn-outline-light {
+        font-size: 16px;
+    }
+
+    li a.dropdown-item {
+        font-size: 14px;
+    }
+
+    /* Navbar Offcanvas */
+
+    .navbar-nav .dropdown a.d-flex.link-brown {
+        font-size: 16px;
+    }
+
+    .navbar-nav .dropdown a.d-flex.link-brown img {
+        width: 25px;
+    }
+
+
+    /* Header */
+
+    .container .header {
+        display: flex;
+        padding: 20px 25px;
+    }
+
+    /* Kelola Buku Tamu */
+
+    .tab-form .col-9{
+        width: 450px;
+    }
+
+    .col-9 .w3-row a .tablink{
+        padding: 0 10px 0 10px;
+        width: 130px;
+        margin-left: -4px;
+    }
+    
+    .col-9 .w3-row a .tablink.right{
+        width: 130px;
+        padding: 0 10px 0 10px;
+    }
+
+    .button-bar .btn-flex2{
+        margin-right: 100px;
+        column-gap: 10px;
+    }
+
+    .table{
+        margin-left: -15px;
+    }
+
+    /* Navbar */
+
+    a.btn-outline-light {
+        font-size: 16px;
+    }
+
+    li a.dropdown-item {
+        font-size: 14px;
+    }
+
+    /* Navbar Offcanvas */
+
+    .navbar-nav .dropdown a.d-flex.link-brown {
+        font-size: 16px;
+    }
+
+    .navbar-nav .dropdown a.d-flex.link-brown img {
+        width: 25px;
+    }
+    
+    /* Hubungi Kami */
+
+    .hub-kami a {
+        padding: 10px 20px;
+        margin: 20px 0;
+        border-radius: 80px;
+        font-weight: 500;
+        font-size: 16px;
+        color: var(--white-color);
+    }
+
+    .hub-kami .icon {
+        font-size: 20px;
+    }
+
+}
+
+@media screen and (max-width: 500px) {
+    /* Navbar */
+
+    .navbar .container-fluid a.navbar-brand img {
+        width: 200px;
+    }
+
+    /* Header */
+
+    .container .header {
+        padding: 15px 20px;
+    }
+
+    .container .header h1 {
+        font-size: 16px;
+    }
+
+    .container .header img {
+        width: 44px;
+    }
+
+    /* Kelola Buku Tamu */
+
+    .flex1 .col-5.top,.col-5.right{
+        width: 350px;
+    }
+
+    .tab-form .col-9{
+        width: 380px;
+    }
+
+    .col-9 .w3-row a .tablink{
+        padding: 0 5px 0 5px;
+        width: 110px;
+        font-size: 13px;
+        margin-left: -6px;
+    }
+    
+    .col-9 .w3-row a .tablink.right{
+        width: 110px;
+        padding: 0 5px 0 5px;
+    }
+
+    .table{
+        margin-left: -35px;
+    }
+
+    .table th{
+        font-size: 10px;
+    }
+
+    .btn-flex1 .plus{
+        padding: 5px 10px;
+        font-size: 12px;
+    }
+
+    .btn-flex1 .share{
+        font-size: 12px;
+    }
+    
+    .btn-flex1 .dropdown{
+        font-size: 12px;
+    }
+
+    .btn-flex1 .reload{
+        padding: 0 15px;
+    }
+
+    .button-bar .btn-flex1{
+        float: left;
+        display: flex;
+        column-gap: 10px;
+    }
+
+    .button-bar .btn-flex2{
+        margin-right: 60px;
+        column-gap: 10px;
+    }
+
+    /* Hubungi Kami */
+
+    .hub-kami a {
+        padding: 10px 20px;
+        margin: 30px 0;
+        border-radius: 50px;
+        font-weight: 600;
+        font-size: 20px;
+        color: var(--white-color);
+    }
+
+    .hub-kami a:hover {
+        color: var(--white-color);
+    }
+
+    .hub-kami .icon {
+        font-size: 20px;
+    }
+
+    /* Footer */
+
+    footer p {
+        padding: 20px;
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .tab-form .col-9{
+        width: 360px;
+    }
+
+    .col-9 .w3-row a .tablink{
+        margin-left: -12px;
+    }
+
+    .button-bar .btn-flex1{
+        margin-left: -15px;
+    }
+
+    .table th{
+        font-size: 9px;
+        margin-left: 4px;
+    }
+
+    .tamu0{
+        margin-left: 20px;
+    }
+}
+
+
+@media screen and (max-width: 375px){
+
+    .flex1 .col-5.top, .col-5.right{
+        width: 260px;
+    }
+    .col-5.top .content{
+        flex-direction: column;
+    }
+    .flex1 .col-5.top .title .title-text a{
+        float: none;
+        font-size: 14px;
+        margin-top: 0;
+    }
+    .flex1 .col-5.top .content .content-left{
+        width: 220px;
+    }
+    .flex1 .col-5.top .content .content-right{
+        margin: 0 0 0 50px;
+    }
+    .flex1 .col-5.right .content-flex{
+        column-gap: 20px;
+    }
+    .flex1 .col-5.right .content-flex p{
+        font-size: 13px;
+    }
+
+    .tab-form .col-9{
+        width: 260px;
+        overflow: hidden;
+    }
+
+    .col-9 .w3-row a .tablink{
+        padding: 0 0 0 0;
+        width: 95px;
+        font-size: 11px;
+        margin-left: -20px;
+    }
+    .col-9 .w3-row a .tablink.right{
+        width: 70px;
+        padding: 0 0 0 0;
+    }
+    .btn-flex1 .plus{
+        padding: 5px 10px;
+        font-size: 10px;
+    }
+    .btn-flex1 .share{
+        font-size: 10px;
+        padding: 5px 10px;
+    }
+    .btn-flex1 .dropdown{
+        font-size: 10px;
+    }
+    .btn-flex1 .reload{
+        padding: 0 15px;
+    }
+    .button-bar .btn-flex1{
+        float: left;
+        display: flex;
+        column-gap: 10px;
+    }
+    .button-bar .btn-flex2{
+        margin-right: 60px;
+        column-gap: 10px;
+    }
+
+    .btn-flex1{
+        flex-wrap: wrap;
+        width: 210px;
+        justify-content: center;
+    }
+
+    .button-bar .btn-flex1 .plus, .share,.dropdown{
+        margin: 10px 0 0 0;
+    }
+
+    .lainnya, .reload{
+        height: 30px;
+    } 
+
+    .button-bar .btn-flex2 .search{
+        padding: 10px;
+    }
+
+    .button-bar .btn-flex2{
+        margin-right: 27px;
+        margin-top: -20px;
+    }
+
+    .table th{
+        font-size: 7px;
+        padding: 5px;
+    }
+
+    .table{
+        margin-left: -42px;
+    }
+}
+
+@media screen and (max-width: 300px) {
+    /* Navbar */
+
+    .navbar .container-fluid a.navbar-brand img {
+        width: 180px;
+    }
+
+    .nav-tabs {
+        width: 210px;
+    }
+
+
+    /* Header */
+
+   .container .header {
+        padding: 15px 17px;
+    }
+
+    .container .header h1 {
+        font-size: 14px;
+    }
+
+    .container .header img {
+        width: 34px;
+    }
+
+    /* Footer */
+
+    footer p {
+        padding: 20px;
+        font-size: 12px;
+    }
+}

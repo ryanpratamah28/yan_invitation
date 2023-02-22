@@ -1,0 +1,824 @@
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+:root {
+    --white-color: #fff;
+    --light-brown: #E0CBA0;
+    --regular-brown: #C6A559;
+    --dark-brown: #492C09;
+    --darker-brown: #3B270C;
+    --background-icon-green: #41C336;
+    --background-icon-red: #FF0202;
+}
+
+html body{
+    background-color: var(--darker-brown);
+    font-family: 'Public Sans', sans-serif;
+}
+
+/* width scrollbar */
+
+::-webkit-scrollbar {
+    width: 14px;
+}
+
+/* Handle scrollbar */
+
+::-webkit-scrollbar-thumb {
+    background: var(--regular-brown);
+    border-radius: 10px;
+}
+
+/* Track scrollbar */
+
+::-webkit-scrollbar-track {
+    background: var(--darker-brown);
+}
+
+/* Body */
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Public Sans', sans-serif;
+}
+
+
+/* Navbar */
+
+.bg-brown {
+    background-color: var(--darker-brown);
+}
+
+a.btn-outline-light {
+    display: block;
+    margin: auto;
+    margin-right: 30px;
+    width: 174px;
+    font-size: 18px;
+    font-weight: 600; 
+    border-radius: 50px;
+    color: var(--regular-brown);
+    border-color: var(--regular-brown);
+    padding: 16px 32px;
+}
+
+.navbar-nav .dropdown {
+    display: flex;
+    padding: 15px 20px;
+    background-color: var(--darker-brown);
+    border: 1px solid #C6A559;
+    border-radius: 50px;
+}
+
+.navbar-nav .dropdown a.d-flex.link-brown {
+    color: var(--regular-brown);
+}
+
+.navbar-nav .dropdown a p {
+    margin: 0 10px;
+}
+
+ul.dropdown-wrapper.dropdown-menu.text-small.show {
+    width: 210px;
+    margin-top: 10px;
+    background-color: var(--dark-brown);
+}
+
+li a.dropdown-item {
+    font-size: 16px;
+    color: var(--regular-brown);
+}
+
+li a.dropdown-item:hover {
+    font-size: 16px;
+    color: var(--white-color);
+    background-color: var(--dark-brown);
+}
+
+/* Navbar Offcanvas */
+
+.navbar .container-fluid .offcanvas {
+    background-color: var(--light-brown);
+}
+
+.navbar .container-fluid .offcanvas-header .btn-close {
+    margin-bottom: 70px;
+}
+
+/* Hubungi Kami */
+.hub-kami {
+    display: flex;
+    margin-right: 20px;
+    justify-content: end;
+}
+
+.hub-kami a {
+    padding: 20px 30px;
+    margin: 30px 0;
+    background-color: var(--background-icon-green);
+    border-radius: 100px;
+    font-weight: 700;
+    font-size: 18px;
+    color: var(--white-color);
+    text-decoration: none;
+}
+
+.hub-kami a:hover {
+    color: var(--white-color);
+}
+
+.hub-kami .icon {
+    font-size: 18px;
+}
+
+/*Footer*/
+
+footer p {
+    padding: 20px;
+    margin: 0;
+    color: var(--light-brown);
+}
+
+/* Ubah Desain */
+
+
+.container{
+    margin-top: 50px;
+}
+
+.container .header {
+    display: flex;
+    padding: 20px 17px;
+}
+
+.container .header h1 {
+    display: flex;
+    align-items: end;
+    color: var(--regular-brown);
+    font-size: 20px;
+    padding: 0 10px;
+    margin: 0;
+}
+
+
+.container .row .col-11{
+    background-color: #E0CBA0;
+    text-align: center;
+    padding: 20px 0 0 0;
+    margin: 0 0 20px 20px;
+    border-radius: 25px;
+    box-shadow: 0 0 20px 0px #C6A559;
+}
+
+.container .row .col-11 h3{
+    font-size: 32px;
+    color: #492C09;
+}
+
+.col-11 .slick1{
+    display: flex;
+    margin: 30px 0 30px 100px;  
+}
+
+.slick1 h2{
+    margin: 85px 0 0 -45px;
+    color: #492C09;
+    font-weight: 500;
+}
+
+.splide{
+    max-width: 1010px;
+    margin-left: 50px;
+    background-color: #492C09;
+    padding: 20px 400px 20px 5px;
+    margin: 0 0 0 50px;
+    border-radius: 20px 0 0 20px;
+}
+
+.splide img{
+    width: 170px;
+}
+
+.splide .splide__slide{
+    max-width: 200px;
+}
+
+.splide .splide__slide .text{
+    background-color: #E0CBA0;
+    border-radius: 15px;
+    width: 160px;
+    height: 75px;
+    margin: -80px 0 0 20px;
+    position: relative;
+    box-shadow: 0 -8px 0 0 #C6A559;
+}
+
+.splide .splide__slide .text b{
+    font-size: 22px;
+    font-weight: 700;
+    color: #492C09;
+}
+
+.splide .splide__slide .text p{
+    margin-top: -20px;
+}
+
+.splide .splide__slide .text-digunakan p,.text-digunakan2 p{
+    margin-top: -10px;
+}
+
+.splide .splide__slide .text-digunakan{
+    background-color: #C6A559;
+    border-radius: 15px;
+    width: 170px;
+    height: 90px;
+    margin: -70px 0 0 15px;
+    position: relative;
+}
+
+.splide .splide__slide .text-digunakan button{
+    font-size: 22px;
+    font-weight: 700;
+    color: #E0CBA0;
+    background-color: #492C09;
+    padding: 2px 42px;
+    border: none;
+    margin: 0 0 0 -3px;
+}
+
+.splide .splide__slide .text-digunakan2{
+    background-color: #C6A559;
+    border-radius: 15px;
+    width: 170px;
+    height: 90px;
+    margin: -88px 0 0 15px;
+    position: relative;
+}
+
+.splide .splide__slide .text-digunakan2 button{
+    font-size: 22px;
+    font-weight: 700;
+    color: #E0CBA0;
+    background-color: #492C09;
+    padding: 2px 42px;
+    border: none;
+    margin: 0 0 0 -3px;
+}
+
+.splide .splide__arrows.splide__arrows--ltr{
+    right: 0;
+    margin: 0 150px 0 0;
+}
+
+.splide .splide__arrow.splide__arrow--prev{
+    background-color: #E0CBA0;
+    margin-left: 680px;
+    margin-top: 40px;
+    width: 50px;
+    border-radius: 20px;
+}
+
+.splide .splide__arrow.splide__arrow--next{
+    background-color: #E0CBA0;
+    margin-right: 180px;
+    margin-top: 40px;
+    width: 50px;
+    border-radius: 20px;
+}
+
+.container .row .col-11 .button-bottom{
+    width: 100%;
+    bottom: 0;
+    margin-top: 30px;
+    padding: 10px 0;
+    border: none;
+    background-color: #C6A559;
+    color: white;
+    font-weight: 500;
+    border-radius: 0 0 20px 20px;
+}
+
+/* slick2 */
+
+.slick2 h2{
+    margin: 60px 0 0 5px;
+}
+
+.splide.a img{
+    width: 170px;
+}
+
+.splide.a{
+    display: flex;
+    max-width: 1000px;
+    margin-left: 50px;
+    background-color: #C6A559;
+    padding: 20px 20px 20px 20px;
+    margin: 0 0 0 0;
+    border-radius: 0 20px 20px 0;
+}
+
+.splide.a .splide__track{
+    margin-left: -135px;
+}
+
+.splide.a .splide__arrows.splide__arrows--ltr{
+    right: left;
+    margin: 0 150px 0 0;
+}
+
+.splide.a .splide__arrow.splide__arrow--prev{
+    background-color: #E0CBA0;
+    margin: 50px 0 0 30px;
+    width: 50px;
+    border-radius: 20px;
+}
+
+.splide.a .splide__arrow.splide__arrow--next{
+    background-color: #E0CBA0;
+    margin: 50px 820px 0 0;
+    width: 50px;
+    border-radius: 20px;
+}
+
+.splide.a .text-digunakan p, .splide.a .text-digunakan2 p{
+    margin-top: -15px;
+}
+
+.splide.a .splide__slide .text-digunakan{
+    background-color: #E0CBA0;
+    border-radius: 15px;
+    width: 170px;
+    height: 80px;
+    margin: -80px 0 0 15px;
+    position: relative;
+}
+
+.splide.a .splide__slide .text-digunakan button{
+    font-size: 20px;
+    width: 170px;
+    font-weight: 700;
+    color: #492C09;
+    background-color: #C6A559;
+    padding: 2px 22px;
+    border: none;
+    margin: 0 0 0 -1px;
+}
+
+.splide.a .splide__slide .text-digunakan2{
+    background-color: #E0CBA0;
+    border-radius: 15px;
+    width: 170px;
+    height: 75px;
+    margin: -60px 0 0 15px;
+    position: relative;
+}
+
+.splide.a .splide__slide .text-digunakan2 button{
+    font-size: 20px;
+    width: 170px;
+    font-weight: 700;
+    color: #492C09;
+    background-color: #C6A559;
+    padding: 2px 22px;
+    border: none;
+    margin: -5px 0 0 -1px;
+}
+
+/* Responsive */
+
+
+@media screen and (max-width: 1400px) {
+    /* Ubah Desain */
+    
+    .splide .splide__arrow.splide__arrow--prev{
+        margin-left: 640px;
+        margin-top: 40px;
+        width: 50px;
+    }
+    
+    .splide .splide__arrow.splide__arrow--next{
+        margin-right: 60px;
+        margin-top: 40px;
+        width: 50px;
+    }
+
+    .splide{
+        max-width: 843px;
+        margin-left: 50px;
+        padding: 20px 250px 20px 5px;
+        margin: 0 0 0 50px;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    /* Ubah Desain */
+
+    .splide{
+        max-width: 680px;
+        margin-left: 50px;
+        padding: 20px 100px 20px 5px;
+        margin: 0 0 0 50px;
+    }
+    
+    .splide .splide__arrow.splide__arrow--prev{
+        margin-left: 574px;
+        margin-top: 40px;
+        width: 40px;
+        border-radius: 20px 0 0 20px;
+    }
+    
+    .splide .splide__arrow.splide__arrow--next{
+        margin-right: -5px;
+        margin-top: 40px;
+        width: 40px;
+        border-radius: 0 20px 20px 0;
+    }
+
+    .splide.a .splide__arrows.splide__arrows--ltr{
+        right: left;
+        margin: 0 150px 0 0;
+    }
+    
+    .splide.a .splide__arrow.splide__arrow--prev{
+        margin: 50px 0 0 50px;
+        width: 40px;
+        border-radius: 20px 0 0 20px;
+    }
+    
+    .splide.a .splide__arrow.splide__arrow--next{
+        margin: 50px 720px 0 0;
+        width: 40px;
+        border-radius: 0 20px 20px 0;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    /* Ubah Desain */
+
+    .col-11 .slick1{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .col-11 a{
+        float: right;
+        margin: -35px 20px 0 0;
+    }
+
+    .slick1 h2{
+        margin: 0 0 15px -100px;
+        color: #492C09;
+        font-weight: 500;
+    }
+
+    .col-11 h3{
+        text-decoration: underline;
+    }
+
+    .splide{
+        max-width: 700px;
+        padding: 20px 20px 20px 30px;
+        margin: 0 0 0 -100px;
+        border-radius: 0;
+    }
+    
+    .splide .splide__arrow.splide__arrow--prev{
+        margin-left: -10px;
+        margin-top: 10px;
+        border-radius: 20px;
+        width: 45px;
+    }
+    
+    .splide .splide__arrow.splide__arrow--next{
+        margin-right: -10px;
+        margin-top: 10px;
+        width: 45px;
+        border-radius: 20px;
+    }
+
+    .splide.a{
+        display: flex;
+        flex-direction: column;
+        max-width: 700px;
+        background-color: #C6A559;
+        padding: 20px 20px 20px 165px;
+        margin: 0 0 0 0;
+        border-radius: 0;
+    }
+
+    .splide.a h2{
+        margin: 0 0 10px -150px;
+    }
+    
+    .splide.a .splide__arrow.splide__arrow--prev{
+        margin-left: -10px;
+        margin-top: 25px;
+        border-radius: 20px;
+        width: 45px;
+    }
+    
+    .splide.a .splide__arrow.splide__arrow--next{
+        margin-right: -10px;
+        margin-top: 25px;
+        width: 45px;
+        border-radius: 20px;
+    }
+}
+
+
+@media screen and (max-width: 767px) {
+
+    /* Ubah Desain */
+
+    .splide{
+        max-width: 700px;
+        padding: 20px 20px 20px 30px;
+        margin: 0 0 0 -100px;
+    }
+
+    .splide .splide__slide{
+        max-width: 180px;
+        min-height: 170px;
+    }
+
+    .splide .splide__slide .text{
+        margin: -80px 0 0 10px;
+    }
+
+    .splide .splide__slide .text-digunakan{
+        margin: -70px 0 0 5px;
+    }
+
+    .splide .splide__slide .text-digunakan2{
+        margin: -90px 0 0 5px;
+    }
+
+    .splide.a .splide__slide .text-digunakan2{
+        margin: -60px 0 0 5px;
+    }
+
+    .splide.a .splide__slide .text-digunakan{
+        margin: -80px 0 0 5px;
+    }
+
+    /* Navbar */
+
+    a.btn-outline-light {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        margin: 0;
+        margin-bottom: 25px;
+        font-size: 18px;
+        font-weight: 600;
+        border-radius: 10px;
+        color: var(--dark-brown);
+        border-color: var(--dark-brown);
+        padding: 10px 16px;
+    }
+
+    .navbar-nav .dropdown {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 15px 20px;
+        background-color: var(--light-brown);
+        border: 1px solid #492C09;
+        border-radius: 10px;
+    }
+
+    ul.dropdown-wrapper.dropdown-menu.text-small.show {
+        width: 100%;
+        margin-top: 10px;
+        background-color: var(--dark-brown);
+    }
+
+    li a.dropdown-item {
+        font-size: 16px;
+        color: var(--regular-brown);
+    }
+
+    /* Navbar Offcanvas */
+
+    .navbar-nav .dropdown a.d-flex.link-brown {
+        font-weight: 600;
+        font-size: 18px;
+        color: var(--dark-brown);
+    }
+
+    .navbar-nav .dropdown a.d-flex.link-brown img {
+        width: 30px;
+    }
+
+    /* Hubungi Kami */
+
+    .hub-kami a {
+        padding: 10px 20px;
+        margin: 20px 0;
+        border-radius: 80px;
+        font-weight: 500;
+        font-size: 18px;
+        color: var(--white-color);
+    }
+
+    
+}
+
+@media screen and (width: 768px) {
+    .container .header {
+        padding: 15px 0px;
+    }
+
+    .container .header h1 {
+        font-size: 20px;
+    }
+}
+
+
+@media screen and (max-width: 576px) {
+
+    /* Navbar */
+
+    a.btn-outline-light {
+        font-size: 16px;
+    }
+
+    li a.dropdown-item {
+        font-size: 14px;
+    }
+
+    /* Navbar Offcanvas */
+
+    .navbar-nav .dropdown a.d-flex.link-brown {
+        font-size: 16px;
+    }
+
+    .navbar-nav .dropdown a.d-flex.link-brown img {
+        width: 25px;
+    }
+    
+    /* Hubungi Kami */
+
+    .hub-kami a {
+        padding: 10px 20px;
+        margin: 20px 0;
+        border-radius: 80px;
+        font-weight: 500;
+        font-size: 16px;
+        color: var(--white-color);
+    }
+
+    .hub-kami .icon {
+        font-size: 20px;
+    }
+
+
+
+}
+
+@media screen and (max-width: 500px) {
+    .container .header {
+        padding: 15px 20px;
+    }
+
+    .container .header h1 {
+        font-size: 16px;
+    }
+
+    .container .header img {
+        width: 44px;
+    }
+
+    /* Ubah Desain */
+
+    .col-11 h3{
+        margin-left: -230px;
+    }
+
+    .container .row .col-11{
+        margin-left: 16px;
+    }
+
+    /* Navbar */
+
+    .navbar .container-fluid a.navbar-brand img {
+        width: 200px;
+    }
+
+    /* Hubungi Kami */
+
+    .hub-kami a {
+        padding: 10px 20px;
+        margin: 30px 0;
+        border-radius: 50px;
+        font-weight: 600;
+        font-size: 20px;
+        color: var(--white-color);
+    }
+
+    .hub-kami a:hover {
+        color: var(--white-color);
+    }
+
+    .hub-kami .icon {
+        font-size: 20px;
+    }
+
+    /* Footer */
+
+    footer p {
+        padding: 20px;
+        font-size: 12px;
+    }
+
+    
+}
+
+@media screen and (max-width: 400px){
+    .col-11 h3{
+        margin-left: -200px;
+    }
+}
+
+@media screen and (max-width: 365px){
+    .col-11 h3{
+        margin-left: 0;
+    }
+
+    .col-11 a{
+        float: none;
+        margin: 0 0 0 0;
+    }
+}
+
+
+@media screen and (max-width: 300px) {
+    .container .header {
+        padding: 15px 20px;
+    }
+
+    .container .header h1 {
+        font-size: 14px;
+    }
+
+    .container .header img {
+        width: 34px;
+    }
+    
+    /* Navbar */
+
+    .navbar .container-fluid a.navbar-brand img {
+        width: 180px;
+    }
+    
+    ul.dropdown-wrapper.dropdown-menu.text-small.show {
+        width: 200px;
+        margin-top: 10px;
+        background-color: var(--dark-brown);
+    }
+
+    li a.dropdown-item {
+        color: var(--regular-brown);
+    }
+
+    /* Navbar Offcanvas */
+
+    .navbar-nav .dropdown a.d-block.link-brown {
+        font-weight: 600;
+        font-size: 18px;
+        color: var(--dark-brown);
+    }
+
+    .navbar-nav .dropdown a.d-block.link-brown img {
+        width: 30px;
+    }
+
+    /* Hubungi Kami */
+
+    .hub-kami {
+        display: flex;
+        margin-right: 0px;
+        justify-content: center;
+    }
+
+    .hub-kami a {
+        padding: 10px 20px;
+        margin: 30px 0;
+        border-radius: 10px;
+        font-weight: 600;
+        font-size: 18px;
+        color: var(--white-color);
+    }
+
+    .hub-kami .icon {
+        font-size: 20px;
+    }
+
+    /* Footer */
+
+    footer p {
+        padding: 20px;
+        font-size: 12px;
+    }
+}

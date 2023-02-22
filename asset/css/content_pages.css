@@ -133,9 +133,12 @@ footer p {
     color: var(--light-brown);
 }
 
-/* Button */
+/* Button On/Off*/
 
-button.btn-brown{
+
+/* Info Tambahan */
+
+.btn-info-tambahan button.btn-brown{
 	padding: 0 40px;
 	border-radius: 2px;
 	color: #fff;
@@ -143,12 +146,12 @@ button.btn-brown{
 	border-color: #C6A559;
 }
 
-button.btn-brown:hover{
+.btn-info-tambahan button.btn-brown:hover{
 	color: #fff;
 	background-color: #C6A559;
 }
 
-button.btn-dark-brown.active {
+.btn-info-tambahan button.btn-dark-brown.active {
 	padding: 0 40px;
 	border-radius: 2px;
 	color: #fff;
@@ -156,20 +159,252 @@ button.btn-dark-brown.active {
 	border-color: #492C09;
 }
 
-button.btn-dark-brown:hover{
+.btn-info-tambahan button.btn-dark-brown:hover{
 	color: #fff;
 	background-color: #492C09;
 	border-color: #492C09;
 }
 
-/* Cerita Cinta */
 
-#cerita-cinta {
+/* RSVP */
+
+.btn-rsvp {
+    margin: 0 0 30px 0;
+}
+
+.btn-rsvp button.btn-brown{
+	padding: 0 40px;
+	border-radius: 2px;
+	color: #fff;
+	background-color: #C6A559;
+	border-color: #C6A559;
+}
+
+.btn-rsvp button.btn-brown:hover{
+	color: #fff;
+	background-color: #C6A559;
+}
+
+.btn-rsvp button.btn-dark-brown.active {
+	padding: 0 40px;
+	border-radius: 2px;
+	color: #fff;
+	background-color: #492C09;
+	border-color: #492C09;
+}
+
+.btn-rsvp button.btn-dark-brown:hover{
+	color: #fff;
+	background-color: #492C09;
+	border-color: #492C09;
+}
+
+/* Info Mempelai */
+
+.btn-info-mempelai {
+    margin: 0 0 30px 0;
+}
+
+.btn-info-mempelai button.btn-brown{
+	padding: 0 40px;
+	border-radius: 2px;
+	color: #fff;
+	background-color: #C6A559;
+	border-color: #C6A559;
+}
+
+.btn-info-mempelai button.btn-brown:hover{
+	color: #fff;
+	background-color: #C6A559;
+}
+
+.btn-info-mempelai button.btn-dark-brown.active {
+	padding: 0 40px;
+	border-radius: 2px;
+	color: #fff;
+	background-color: #492C09;
+	border-color: #492C09;
+}
+
+.btn-info-mempelai button.btn-dark-brown:hover{
+	color: #fff;
+	background-color: #492C09;
+	border-color: #492C09;
+}
+
+/* Cover Pembuka */
+
+.btn-cover {
+    margin: 0 0 30px 0;
+}
+
+.btn-cover button.btn-brown{
+	padding: 0 40px;
+	border-radius: 2px;
+	color: #fff;
+	background-color: #C6A559;
+	border-color: #C6A559;
+}
+
+.btn-cover button.btn-brown:hover{
+	color: #fff;
+	background-color: #C6A559;
+}
+
+.btn-cover button.btn-dark-brown.active {
+	padding: 0 40px;
+	border-radius: 2px;
+	color: #fff;
+	background-color: #492C09;
+	border-color: #492C09;
+}
+
+.btn-cover button.btn-dark-brown:hover{
+	color: #fff;
+	background-color: #492C09;
+	border-color: #492C09;
+}
+
+/* Settingan Cover Pembuka */
+
+.btn-settingan-cover {
+    margin: 0 0 30px 0;
+}
+
+.btn-settingan-cover button.btn-brown{
+	padding: 0 40px;
+	border-radius: 2px;
+	color: #fff;
+	background-color: #C6A559;
+	border-color: #C6A559;
+}
+
+.btn-settingan-cover button.btn-brown:hover{
+	color: #fff;
+	background-color: #C6A559;
+}
+
+.btn-settingan-cover button.btn-dark-brown.active {
+	padding: 0 40px;
+	border-radius: 2px;
+	color: #fff;
+	background-color: #492C09;
+	border-color: #492C09;
+}
+
+.btn-settingan-cover button.btn-dark-brown:hover{
+	color: #fff;
+	background-color: #492C09;
+	border-color: #492C09;
+}
+
+/* Galeri Foto & Video */
+
+.btn-galeri {
+    margin: 0 0 30px 0;
+}
+
+.btn-galeri button.btn-brown{
+	padding: 0 40px;
+	border-radius: 2px;
+	color: #fff;
+	background-color: #C6A559;
+	border-color: #C6A559;
+}
+
+.btn-galeri button.btn-brown:hover{
+	color: #fff;
+	background-color: #C6A559;
+}
+
+.btn-galeri button.btn-dark-brown.active {
+	padding: 0 40px;
+	border-radius: 2px;
+	color: #fff;
+	background-color: #492C09;
+	border-color: #492C09;
+}
+
+.btn-galeri button.btn-dark-brown:hover{
+	color: #fff;
+	background-color: #492C09;
+	border-color: #492C09;
+}
+
+/* Amplop Digital */
+
+.btn-amplop-digital {
+    margin: 0 0 30px 0;
+}
+
+.btn-amplop-digital button.btn-brown{
+	padding: 0 40px;
+	border-radius: 2px;
+	color: #fff;
+	background-color: #C6A559;
+	border-color: #C6A559;
+}
+
+.btn-amplop-digital button.btn-brown:hover{
+	color: #fff;
+	background-color: #C6A559;
+}
+
+.btn-amplop-digital button.btn-dark-brown.active {
+	padding: 0 40px;
+	border-radius: 2px;
+	color: #fff;
+	background-color: #492C09;
+	border-color: #492C09;
+}
+
+.btn-amplop-digital button.btn-dark-brown:hover{
+	color: #fff;
+	background-color: #492C09;
+	border-color: #492C09;
+}
+
+/* Ucapan Pernikahan */
+
+.btn-ucapan-pernikahan {
+    margin: 0 0 30px 0;
+}
+
+.btn-ucapan-pernikahan button.btn-brown{
+	padding: 0 40px;
+	border-radius: 2px;
+	color: #fff;
+	background-color: #C6A559;
+	border-color: #C6A559;
+}
+
+.btn-ucapan-pernikahan button.btn-brown:hover{
+	color: #fff;
+	background-color: #C6A559;
+}
+
+.btn-ucapan-pernikahan button.btn-dark-brown.active {
+	padding: 0 40px;
+	border-radius: 2px;
+	color: #fff;
+	background-color: #492C09;
+	border-color: #492C09;
+}
+
+.btn-ucapan-pernikahan button.btn-dark-brown:hover{
+	color: #fff;
+	background-color: #492C09;
+	border-color: #492C09;
+}
+
+/* Content */
+
+#pages-content {
     background-color: var(--darker-brown);
     color: var(--regular-brown);
 }
 
-#cerita-cinta .container {
+#pages-content .container {
     width: min(100% - 30px, 1320px);
     padding-top: 50px;
     padding-bottom: 50px;
@@ -179,12 +414,12 @@ button.btn-dark-brown:hover{
     margin-inline: auto;
 }
 
-#cerita-cinta .container .header {
+#pages-content .container .header {
     display: flex;
     padding: 20px 0px;
 }
 
-#cerita-cinta .container .header h1 {
+#pages-content .container .header h1 {
     display: flex;
     align-items: end;
     font-size: 20px;
@@ -192,7 +427,7 @@ button.btn-dark-brown:hover{
     margin: 0;
 }
 
-#cerita-cinta .container .form-outer {
+#pages-content .container .form-outer {
     background: var(--light-brown);
     box-shadow: -4px 0px 20px rgba(198, 165, 89, 0.7);
     border-radius: 30px;
@@ -610,8 +845,6 @@ a.btn-tambah-hari:hover {
     color: var(--white-color);
 }
 
-/* Cover Pembuka */
-
 /* Informasi Mempelai */
 
 hr.divider {
@@ -776,12 +1009,6 @@ hr.device-divider {
 }
 
 /* RSVP Page */
-.form-outer .needs-validation .form-wrapper .setting-rsvp{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    height: 200px;
-}
 
 .form-outer .needs-validation .form-wrapper .setting-rsvp a{
     text-decoration: none;
@@ -1036,11 +1263,11 @@ div.card-img-overlay h1.card-title {
 
     /* Cerita Cinta */
 
-    #cerita-cinta .container .header {
+    #pages-content .container .header {
         padding: 15px 0px;
     }
 
-    #cerita-cinta .container .header h1 {
+    #pages-content .container .header h1 {
         font-size: 20px;
     }
 
@@ -1325,15 +1552,15 @@ div.card-img-overlay h1.card-title {
 
     /* Cerita Cinta */
 
-    #cerita-cinta .container .header {
+    #pages-content .container .header {
         padding: 15px 0px;
     }
 
-    #cerita-cinta .container .header h1 {
+    #pages-content .container .header h1 {
         font-size: 18px;
     }
 
-    #cerita-cinta .container .header img {
+    #pages-content .container .header img {
         width: 54px;
     }
 
@@ -1454,6 +1681,13 @@ div.card-img-overlay h1.card-title {
     /* Info Acara */
 
     .form-outer .form-wrapper .row .teks-tamu-checkbox h6 {
+        margin: 15px 0px;
+        font-size: 16px;
+    }
+
+    /* Cover Pembuka */
+
+    .form-outer .form-wrapper .row .teks-tamu-checkbox .btn-cover h6 {
         margin: 15px 0px;
         font-size: 16px;
     }
@@ -1663,7 +1897,7 @@ div.card-img-overlay h1.card-title {
     /* Navbar */
 
     .navbar .container-fluid a.navbar-brand img {
-        width: 230px;
+        width: 200px;
     }
 
     /* Hubungi Kami */
@@ -1694,15 +1928,15 @@ div.card-img-overlay h1.card-title {
 
     /* Cerita Cinta */
 
-    #cerita-cinta .container .header {
+    #pages-content .container .header {
         padding: 15px 0px;
     }
 
-    #cerita-cinta .container .header h1 {
+    #pages-content .container .header h1 {
         font-size: 16px;
     }
 
-    #cerita-cinta .container .header img {
+    #pages-content .container .header img {
         width: 44px;
     }
 
@@ -1827,6 +2061,13 @@ div.card-img-overlay h1.card-title {
 
     .form-outer .form-wrapper .row .teks-tamu-checkbox h6 {
         margin: 10px 0px;
+        font-size: 14px;
+    }
+
+    /* Cover Pembuka */
+
+    .form-outer .form-wrapper .row .teks-tamu-checkbox .btn-cover h6 {
+        margin: 15px 0px;
         font-size: 14px;
     }
 
@@ -2051,6 +2292,95 @@ div.card-img-overlay h1.card-title {
         width: 210px;
     }
 
+    
+    /* Button */
+
+    /* Info Tambahan */
+
+    .btn-info-tambahan button.btn-brown{
+        padding: 0 35px;
+    }
+
+    .btn-info-tambahan button.btn-dark-brown.active {
+        padding: 0 35px;
+    }
+
+    /* RSVP */
+
+    .btn-rsvp button.btn-brown{
+        padding: 0 35px;
+    }
+
+    .btn-rsvp button.btn-dark-brown.active {
+        padding: 0 35px;
+    }
+
+    /* Info Mempelai */
+
+    .btn-info-mempelai button.btn-brown{
+        padding: 0 35px;
+    }
+
+    .btn-info-mempelai button.btn-dark-brown.active {
+        padding: 0 35px;
+    }
+
+    /* Cover Pembuka */
+
+    .form-outer .form-wrapper .row .teks-tamu-checkbox .btn-cover h6 {
+        margin: 15px 0px;
+        font-size: 12px;
+    }
+
+    .btn-cover button.btn-brown{
+        padding: 0 35px;
+    }
+
+    .btn-cover button.btn-dark-brown.active {
+        padding: 0 35px;
+    }
+
+    /* Settingan Cover */
+
+    .btn-settingan-cover button.btn-brown{
+        padding: 0 35px;
+    }
+
+    .btn-settingan-cover button.btn-dark-brown.active {
+        padding: 0 35px;
+    }
+
+    /* Galeri Foto & Video */
+
+    .btn-galeri button.btn-brown{
+        padding: 0 35px;
+    }
+
+    .btn-galeri button.btn-dark-brown.active {
+        padding: 0 35px;
+    }
+
+    /* Amplop Digital */
+
+    .btn-amplop-digital button.btn-brown{
+        padding: 0 35px;
+    }
+
+    .btn-amplop-digital button.btn-dark-brown.active {
+        padding: 0 35px;
+    }
+
+    /* Ucapan Pernikahan */
+
+    .btn-ucapan-pernikahan button.btn-brown{
+        padding: 0 35px;
+    }
+
+    .btn-ucapan-pernikahan button.btn-dark-brown.active {
+        padding: 0 35px;
+    }
+
+
     /* Hubungi Kami */
 
     .hub-kami a {
@@ -2079,15 +2409,15 @@ div.card-img-overlay h1.card-title {
 
     /* Cerita Cinta */
 
-    #cerita-cinta .container .header {
+    #pages-content .container .header {
         padding: 15px 0px;
     }
 
-    #cerita-cinta .container .header h1 {
+    #pages-content .container .header h1 {
         font-size: 14px;
     }
 
-    #cerita-cinta .container .header img {
+    #pages-content .container .header img {
         width: 34px;
     }
 
